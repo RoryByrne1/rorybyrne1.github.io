@@ -5,6 +5,6 @@ slug: new
 description: this is a test for a new game
 ---
 
-here is some text about my new game
+[Read all devlogs](/devlogs/{{ page.slug }})
 
-you can read devlogs [here](/devlogs/new/)
+here is some text about my new game
