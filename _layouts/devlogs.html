@@ -12,16 +12,9 @@
   </header>
 
   <main>
-    {% assign logs = site.devlogs | where: "project", page.project | sort: "date" | reverse %}
+    {% assign logs = site.devlogs %}
 
-    {% for log in logs %}
-      <article>
-        <h2><a href="{{ log.url }}">{{ log.title }}</a></h2>
-        <p><em>{{ log.date | date: "%B %-d, %Y" }}</em></p>
-        {{ log.content }}
-        <hr>
-      </article>
-    {% endfor %}
+    <pre>{{ site.devlogs | jsonify }}</pre>
   </main>
 </body>
 </html>
