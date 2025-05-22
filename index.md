@@ -17,7 +17,7 @@ this is my home page
 
 ## latest logs
 
-<ul>
+<!-- <ul>
   {% assign all_devlogs = site.pages | where: "layout", "devlog" | sort: "date" | reverse %}
   {% for log in all_devlogs limit:5 %}
     <li>
@@ -26,4 +26,4 @@ this is my home page
       <br><small>From <a href="/projects/{{ log.project }}">{{ log.project }}</a></small>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
