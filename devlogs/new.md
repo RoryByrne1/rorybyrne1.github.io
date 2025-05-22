@@ -1,6 +1,5 @@
 ---
 layout: devlogs
-title: some title
+title: new game devlogs
 project: new
-permalink: /devlogs/new/
 ---
