@@ -1,2 +1,6 @@
 title: Rory
 description: my portfolio 
+collections:
+  devlogs:
+    output: true
+    permalink: /devlogs/:name/
