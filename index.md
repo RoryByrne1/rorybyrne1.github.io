@@ -7,8 +7,6 @@ this is my home page
 
 ## projects
 
-check out my [new game](/projects/new.md).
-
 <ul>
   {% for page in site.pages %}
     {% if page.dir == "/projects/" %}
@@ -17,7 +15,7 @@ check out my [new game](/projects/new.md).
   {% endfor %}
 </ul>
 
-## 📝 latest devlogs
+## latest logs
 
 <ul>
   {% assign all_devlogs = site.pages | where: "layout", "devlog" | sort: "date" | reverse %}
