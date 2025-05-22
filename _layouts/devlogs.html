@@ -12,7 +12,7 @@
   </header>
 
   <main>
-    {% assign logs = site.devlogs.docs | where: "project", page.project | sort: "date" | reverse %}
+    {% assign logs = site.devlogs | where: "project", page.project | sort: "date" | reverse %}
     <ul>
       {% for log in logs %}
         <li>
