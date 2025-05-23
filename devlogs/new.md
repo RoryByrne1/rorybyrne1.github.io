@@ -1,5 +1,5 @@
 ---
 layout: devlogs
-title: new game devlogs
+title: new project devlogs
 project: new
 ---

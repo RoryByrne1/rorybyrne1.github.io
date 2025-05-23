@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Projects
+title: projects
 ---
 
+# my projects
 this is where i put my projects
 
-## projects
 
 <ul>
   {% for page in site.pages %}
@@ -15,8 +15,9 @@ this is where i put my projects
   {% endfor %}
 </ul>
 
-## latest logs
+make this display fancier
 
+<!-- ## latest logs -->
 <!-- <ul>
   {% assign all_devlogs = site.pages | where: "layout", "devlog" | sort: "date" | reverse %}
   {% for log in all_devlogs limit:5 %}
