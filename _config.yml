@@ -1,5 +1,6 @@
 title: Rory
 description: my portfolio 
+permalink: /:title
 collections:
   devlogs:
     output: true
