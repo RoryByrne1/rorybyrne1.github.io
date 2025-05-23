@@ -1,25 +1,18 @@
-<!-- _layouts/default.html -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/styles.css">
 </head>
-<body>
-  <header>
-    <h1><a href="/">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
-    <hr>
-  </header>
+<body class="site">
+  {% include header.html %}
 
-  <main>
+  <main class="site-content">
     {{ content }}
   </main>
 
-  <footer>
-    <hr>
-    <p>© {{ site.time | date: "%Y" }} Rory Byrne</p>
-  </footer>
+  {% include footer.html %}
 </body>
 </html>
