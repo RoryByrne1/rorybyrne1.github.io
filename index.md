@@ -1,17 +1,14 @@
 ---
 layout: default
-title: Home
+title: about
 ---
 
-this is my home page
+# about me
 
-<!-- <ul>
-  {% assign all_devlogs = site.pages | where: "layout", "devlog" | sort: "date" | reverse %}
-  {% for log in all_devlogs limit:5 %}
-    <li>
-      <a href="{{ log.url }}">{{ log.title }}</a>
-      – <em>{{ log.date | date: "%B %-d, %Y" }}</em>
-      <br><small>From <a href="/projects/{{ log.project }}">{{ log.project }}</a></small>
-    </li>
-  {% endfor %}
-</ul> -->
+<img width=200 src="/assets/rory.jpeg">
+
+hello i am rory byrne
+
+my open source site i made myself :j
+
+maybe pull headers out of main pages and put them into layouts - can control css more
