@@ -1,9 +1,21 @@
 ---
 layout: default
-title: Home
+title: Projects
 ---
 
-this is my home page
+this is where i put my projects
+
+## projects
+
+<ul>
+  {% for page in site.pages %}
+    {% if page.dir == "/projects/" %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+## latest logs
 
 <!-- <ul>
   {% assign all_devlogs = site.pages | where: "layout", "devlog" | sort: "date" | reverse %}
