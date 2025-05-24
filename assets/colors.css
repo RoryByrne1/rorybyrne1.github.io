@@ -1,11 +1,33 @@
 :root {
-  --muted-lemon: #F4D35E; /* header background */
-  --buttercream: #FFF7D6; /* header border and footer background */
-  --cream-glow: #FFFBEA /* footer border */
-  --charcoal: #2E2E2E; /* title colour */
-  --soft-charcoal: #3A3A3A; /* test colour */
-  --warm-ash: #696969; /* link highlight colour */
-  --sage-green: #A8C686; /* sage green */
-  --muted-teal: #4C9085; /* muted teal */
-  --rust-red: #C44536; /* rust red */
+  --header-bg: #8FB573;       /* refined sage */
+  --header-border: #A8C686;   /* sage green */
+  --footer-bg: #FFF7D6;       /* buttercream */
+  --footer-border: #FFFBEA;   /* cream-glow */
+  --header-text: #FAF9F6;     /* soft white */
+  --header-hover: #DCDAD6;    /* cloud tint */
+  --body-text: #3A3A3A;       /* soft-charcoal */
+  --body-hover: #696969;  /* warm ash */
+
+  --charcoal: #2E2E2E;        /* charcoal */
+  --dark-sage: #6F8F57;       /* dark sage */
+  --sage-green: #A8C686;      /* sage green */
+  --muted-teal: #4C9085;      /* muted teal */
+  --rust-red: #C44536;        /* rust red */
+  --muted-lemon: #F4D35E;     /* muted lemon */
+}
+
+old {
+  --header-bg: #F4D35E;       /* nuted lemon */
+  --header-border: #FFF7D6;   /* buttercream */
+  --footer-bg: #FFF7D6;       /* buttercream */
+  --footer-border: #FFFBEA;   /* cream-glow */
+  --header-text: #2E2E2E;     /* charcoal */
+  --header-hover: #696969;    /* warm ash */
+  --body-text: #3A3A3A;       /* soft-charcoal */
+  --body-hover: #696969;  /* warm ash */
+
+  --dark-sage: #6F8F57;       /* dark sage */
+  --sage-green: #A8C686;      /* sage green */
+  --muted-teal: #4C9085;      /* muted teal */
+  --rust-red: #C44536;        /* rust red */
 }

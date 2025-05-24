@@ -2,9 +2,9 @@
 
 /* header and footer styles */
 .site-header {
-  background: var(--muted-lemon);
-  color: var(--charcoal);
-  border-bottom: var(--buttercream) solid 0.5rem;
+  background: var(--header-bg);
+  /* color: var(--charcoal); */
+  border-bottom: var(--header-border) solid 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,7 +14,7 @@
 .header-title {
   font-size: 2rem;
   font-family: 'Playfair Display', serif;
-  color: var(--charcoal);
+  color: var(--header-text);
   text-decoration: none;
   letter-spacing: 2px;
 }
@@ -22,24 +22,24 @@
 .header-nav {
   padding: 0rem 2rem;
   font-size: 1.2rem;
-  color: var(--soft-charcoal);
+  color: var(--header-text);
 }
 
 .header-nav a {
   text-decoration: none;
-  color: var(--soft-charcoal);
+  color: var(--header-text);
   margin: 0 0.5rem;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .header-nav a:hover {
-  color: var(--warm-ash);
+  color: var(--header-hover);
 }
 
 .site-footer {
-  background: var(--buttercream);
-  border-top: #FFFBEA solid 0.3rem;
+  background: var(--footer-bg);
+  border-top: var(--footer-border) solid 0.3rem;
   padding: 1rem 2rem;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .footer-icons a {
-  color: var(--soft-charcoal);
+  color: var(--body-text);
   margin: 0 0.5rem;
   font-size: 1.5rem;
   transition: color 0.2s ease;
@@ -64,14 +64,14 @@
 }
 
 .footer-icons a:hover {
-  color: var(--warm-ash);
+  color: var(--body-hover);
 }
 /* =========================== */
 
 /* site content styles */
 html, body.site {
   font-family: 'Roboto', sans-serif;
-  color: var(--soft-charcoal);
+  color: var(--body-text);
   height: 100%;
   margin: 0;
   padding: 0;
