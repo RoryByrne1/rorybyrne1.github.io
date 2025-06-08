@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 2rem 0.7rem 2rem;
+  padding: 1.4rem 2rem 0.7rem 2rem;
 }
 
 .header-title {
@@ -40,7 +40,7 @@
 .site-footer {
   background: var(--footer-bg);
   border-top: var(--footer-border) solid 0.3rem;
-  padding: 1rem 2rem;
+  padding: 0.7rem 2rem;
 }
 
 .site-footer .footer-content {
@@ -89,5 +89,10 @@ body.site {
   max-width: none;
   background: white;
   border-radius: 8px;
+}
+
+.devlog-content {
+  max-width: 35em;
+  padding: 0 0 1rem 2rem;
 }
 /* =========================== */
