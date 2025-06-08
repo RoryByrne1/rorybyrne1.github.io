@@ -6,9 +6,13 @@ layout: default
 
 {% assign logs = site.devlogs | where: "project", page.project | sort: "date" | reverse %}
 {% for log in logs %}
-  <article>
-    <h2><a href="{{ log.url }}">{{ log.title }}</a></h2>
-    <p><em>{{ log.date | date: "%B %-d, %Y" }}</em></p>
-    <div>{{ log.content }}</div>
-  </article>
+  <!-- <a href="{{ log.url }}"> -->
+    <article>
+      <a href="{{ log.url }}">
+        <h2>{{ log.title }}</h2>
+      </a>
+      <em>{{ log.date | date: "%B %-d, %Y" }}</em>
+      <div class="devlog-content">{{ log.content }}</div>
+    </article>
+  <!-- </a> -->
 {% endfor %}
