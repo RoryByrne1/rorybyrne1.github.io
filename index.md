@@ -5,7 +5,7 @@ title: about
 
 # about me
 
-<img width=200 src="/assets/rory.jpeg">
+<img width=200 src="/assets/rory.jpeg" class="image">
 
 hello i am rory byrne
 
