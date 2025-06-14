@@ -84,8 +84,8 @@ body.site {
 }
 
 .site-content {
-  flex: 1;
-  padding: 1.5rem 4rem;
+  flex: 2;
+  padding: 1.5rem 25rem;
   max-width: none;
   background: white;
   border-radius: 8px;
@@ -94,5 +94,13 @@ body.site {
 .devlog-content {
   max-width: 35em;
   padding: 0 0 1rem 2rem;
+}
+
+.image {
+  transition: border-radius 0.2s ease;
+}
+
+.image:hover {
+  border-radius: 200px;
 }
 /* =========================== */

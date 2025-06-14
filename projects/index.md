@@ -9,7 +9,7 @@ this is where i put my projects
 
 <ul>
   {% for page in site.pages %}
-    {% if page.dir == "/projects/" %}
+    {% if page.dir == "/projects/" and page.title != "projects" %}
       <li><a href="{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
