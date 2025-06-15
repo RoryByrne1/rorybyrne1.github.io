@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<a href="/projects/{{ page.project }}">← back to project page</a>
-<h2>{{ page.title }}</h2>
+<!-- <a href="/projects/{{ page.project }}">← back to project page</a> -->
+<h1>{{ page.title }}</h1>
 
 {% assign logs = site.devlogs | where: "project", page.project | sort: "date" | reverse %}
 {% for log in logs %}
   <!-- <a href="{{ log.url }}"> -->
     <article>
-      <a href="{{ log.url }}">
-        <h2>{{ log.title }}</h2>
+      <a href="{{ log.url }}" class="devlog-item">
+        <div class="devlog-title">
+          <h2>{{ log.title }}</h2>
+          {{ log.date | date: "%B %-d, %Y" }}
+        </div>
+        <div class="devlog-content">{{ log.content }}</div>
       </a>
-      <em>{{ log.date | date: "%B %-d, %Y" }}</em>
-      <div class="devlog-content">{{ log.content }}</div>
     </article>
   <!-- </a> -->
 {% endfor %}

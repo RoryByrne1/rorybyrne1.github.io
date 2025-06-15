@@ -9,7 +9,7 @@ In Computer Science A-Level, every student is required to do an Non-Exam Assessm
 
 The problem I chose was that my made-up friend really missed playing video games with his other made-up friends, and none of the games around now could satisfy them (an excuse to make a game).
 
-[Here](/assets/Computer%20Science%20NEA.pdf) is my 250 page design document detailing the process and code of my NEA.
+<a href="/assets/Computer%20Science%20NEA.pdf" target="_blank">Here</a> is my 250 page design document detailing the process and code of my NEA.
 
 My NEA recieved a mark of 73/75.
 

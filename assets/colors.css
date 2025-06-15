@@ -16,8 +16,8 @@ green {
   --muted-lemon: #F4D35E;     /* muted lemon */
 }
 
-:root {
-  --header-bg: #F4D35E;       /* nuted lemon */
+yellow {
+  --header-bg: #F4D35E;       /* muted lemon */
   --header-border: #FFF7D6;   /* buttercream */
   --footer-bg: #FFF7D6;       /* buttercream */
   --footer-border: #FFFBEA;   /* cream-glow */
@@ -30,4 +30,25 @@ green {
   --sage-green: #A8C686;      /* sage green */
   --muted-teal: #4C9085;      /* muted teal */
   --rust-red: #C44536;        /* rust red */
+}
+
+:root {
+  --title-text:    #4A4A4A;     /* charcoal */
+  --title-hover:   #696969;     /* warm ash */
+  --body-text:     #5A5A5A;     /* soft-charcoal */
+  --body-hover:    #888888;     /* warm ash */
+  --accent-text:   #4C9085;     /* muted teal */
+  --accent-hover:  #31706A;     /* darker teal */
+
+  --dark-sage:     #6F8F57;     /* dark sage */
+  --sage-green:    #A8C686;     /* sage green */
+  --muted-teal:    #4C9085;     /* muted teal */
+  --darker-teal:   #31706A;     /* darker teal */
+  --rust-red:      #C44536;     /* rust red */
+  --muted-lemon:   #F4D35E;     /* muted lemon */
+  --buttercream:   #FFF7D6;     /* buttercream */
+  --cream-glow:    #FFFBEA;     /* cream-glow */
+
+  --body-font:   "Roboto", serif;
+  --accent-font: "Fira Code", monospace;
 }
