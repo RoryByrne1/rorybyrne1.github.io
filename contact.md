@@ -21,7 +21,7 @@ title: contact
     <li><a href="https://github.com/rorybyrne1" target="_blank" aria-label="GitHub">
       github
     </a></li>
-    <li><a href="mailto:rory26byrne@gmail.com" aria-label="Email">
+    <li><a href="mailto:rory26byrne@gmail.com" target="_blank" aria-label="Email">
       email
     </a></li>
     <li><a href="/assets/CV.pdf" target="_blank" aria-label="CV">
