@@ -4,3 +4,5 @@ permalink: /:title
 collections:
   devlogs:
     output: true
+  me:
+    output: false
