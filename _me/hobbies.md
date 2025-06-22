@@ -1,11 +1,14 @@
 ---
 title: hobbies
-order: 200
+order: 50
 ---
 
-Playing and listening to music are very important to me; I've been playing guitar since I was 9 and piano my whole life, more recently starting to play bass and drums as well. Aside from this, I love cooking, playing badminton, making jewellery, and taking pictures.
+I play and listen to a lot of music. I've been playing piano and guitar since I was 9, more recently starting to play bass and drums as well.
 
-<!-- some things i'm interesting in
-- astronomy
-- free will
--->
+I make jewellery (mostly rings) out of old guitar strings and give them to my favourite people.
+
+I really enjoy cooking, especially cooking for other people.
+
+I sometimes take pictures.
+
+I play badminton and occasionally run.

@@ -5,10 +5,7 @@ title: me
 
 # more about me
 
-This page is so you can learn a little more about my passions and hobbies. It's a little profile of me.
-It's selfish of me to think anyone will be interested in my passions and hobbies. My CV for you to think I'm cool. PLEASE THINK I'M COOL
-
-I'll be putting more about me and also anything I want to put here
+It's self-indulgent to think anyone will be interested but here is more about me. This is mostly for me, to keep my interests, inspirations, and ideas in one place, though I'm probably hoping someone will think I'm cool.
 
 <div class="me-tiles">
   {% assign me_sections = site.me | sort: "order" %}

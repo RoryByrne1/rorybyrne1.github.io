@@ -31,10 +31,6 @@
   align-items: center;
   justify-content: center;
 }
-
-.contact-icons {
-  font-size: 1.6rem;
-}
 /* =========================== */
 
 /* site content styles */
@@ -66,6 +62,19 @@ body.site {
   border-radius: 8px;
 }
 
+.index {
+  width: 80%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  border-radius: 1rem;
+  width: 13rem;
+}
+
 .devlog-item {
   color: inherit;
   font-family: inherit;
@@ -92,10 +101,6 @@ body.site {
   border-radius: 8px;
 }
 
-.image {
-  border-radius: 16px;
-}
-
 a {
   font-family: var(--body-font);
   color: var(--accent-text);
@@ -108,10 +113,9 @@ a:hover {
 }
 
 ul {
-  font-family: var(--accent-font);
   list-style: none;
-  padding-left: 1.2em;
-  gap: 0.3em;
+  gap: 0.1em;
+  padding-left: 1em;
   display: flex;
   flex-direction: column;
 }
@@ -122,8 +126,13 @@ ul a {
 
 ul li::before {
   content: "> ";
-  color: var(--accent-text);
+  font-family: var(--accent-font);
   margin-right: 0.3em;
+}
+
+.contact-icons ul {
+  font-size: 1.6rem;
+  gap: 0.5rem;
 }
 /* =========================== */
 
@@ -210,7 +219,7 @@ ul li::before {
 .cv-entry ul {
   font-family: var(--body-font);
   font-size: 0.9em;
-  padding-left: 0;
+  padding-left: 0.5em;
   margin: 0.5rem 0 0 0;
 }
 
@@ -220,6 +229,13 @@ ul li::before {
     width: 80vw;
     padding: 0.5rem 0.5rem;
     border-radius: 0;
+  }
+
+  .index {
+    width: 100%;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 0.5rem;
   }
 
   .devlog-content {
