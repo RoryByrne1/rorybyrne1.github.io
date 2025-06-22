@@ -87,13 +87,8 @@ list:
 
 *album art copyright belongs to the respective artists/labels*
 
-there are many more albums i love but these are the ones that inspire me most
-they inspire me in ways more than just musically and they've all been important to me at different points throughout my life
+There are many more albums that I love but these are the ones that inspire me most, inspiring me in ways more than just musically.
 
+I mostly owe my music taste to my siblings, they raised me with a lot of these albums in the car, show me new music, and bring me to concerts. These albums tend to be their favourite albums too. I do find that my favourite things tend to be the favourite things of my favourite people, my favourite flower is my sister's favourite flower, my favourite bird is my brother's favourite bird, sometimes I feel like I owe my whole personality to all these people.
 
-one day I aspire to make an album myself
-though i have limited experience in music creation, made one piece (that i am in fact pretty proud of) for GCSE music when I was 15 and other than that occasionally play around on the guitar
-It's very naive of me, and the artists of these albums are incredibly experienced and gifted, it is crazy to think I could create something even remotely good, but there's still that desire in me to make something cool that other people like, and I think I also desperately want to prove to people that I can do something cool, it's also naive to think it would help with that
-
-my music taste is a lot from my siblings and these albums tend to also be the favourite albums of my siblings
-i find that a lot with my 'favourite' things, they tend to be the favourite things of other people, maybe my favourite people
+I aspire to one day create an album myself. I've lightly dabbled in music composition but it is very naive of me and I know this but there's a desire in me to make something cool that is hard to ignore. I think I also desperately want to prove to people that I can do something cool, it's also naive to think it would help with that

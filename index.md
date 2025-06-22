@@ -5,12 +5,17 @@ title: about
 
 # about me
 
-<img width=250 src="/assets/rory2.JPG" class="image">
+<div class="index">
 
-My name is Rory Byrne and I was born the youngest of 5 in Oxfordshire in 2006.
-I currently study Computer Science at UCL and am interested in web and game development.
-My other interests include music, cooking, badminton, making jewellery, and taking pictures.
+    <a href="/"><img width=250 src="/assets/rory2.JPG" class="image"></a>
+    
+    My name is Rory Byrne and I was born the youngest of 5 in Oxfordshire in 2006.
+    I am a Computer Science student at UCL, interested in web and game development.
+    My other interests include music, cooking, playing badminton, making jewellery, and taking pictures.
 
-[my cv](/cv)
+</div>
 
-[more about me](/me)
+- [my cv](/cv)
+- [my projects](/projects)
+- [contact me](/contact)
+<!-- - [more about me](/me) -->

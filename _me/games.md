@@ -124,4 +124,5 @@ list:
 *game art copyright belongs to the respective creators/publishers*
 
 any game i've ever played has inspired me
-these ones particularly
+
+but these ones particularly

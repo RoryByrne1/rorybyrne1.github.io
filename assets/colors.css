@@ -37,14 +37,15 @@ yellow {
   --title-hover:   #696969;     /* warm ash */
   --body-text:     #5A5A5A;     /* soft-charcoal */
   --body-hover:    #888888;     /* warm ash */
-  --accent-text:   #4C9085;     /* muted teal */
-  --accent-hover:  #31706A;     /* darker teal */
+  --accent-text:   #C44536;
+  --accent-hover:  #992a22;
 
   --dark-sage:     #6F8F57;     /* dark sage */
   --sage-green:    #A8C686;     /* sage green */
   --muted-teal:    #4C9085;     /* muted teal */
   --darker-teal:   #31706A;     /* darker teal */
   --rust-red:      #C44536;     /* rust red */
+  --dark-rust:     #992a22;     /* darker rust red */
   --muted-lemon:   #F4D35E;     /* muted lemon */
   --buttercream:   #FFF7D6;     /* buttercream */
   --cream-glow:    #FFFBEA;     /* cream-glow */

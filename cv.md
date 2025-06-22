@@ -6,14 +6,14 @@ experience:
     what: Web Developer
     where: Oxford, United Kingdom
     when: June 2025 - Present
-  - who: The Mole Inn
-    what: Waiter
-    where: Oxford, United Kingdom
-    when: June 2025 - September 2025
-  - who: The Seven Stars At Marsh Baldon
+  - who: The Mole Inn &bull; June 2025 - September 2025 <br> The Seven Stars At Marsh Baldon
     what: Waiter
     where: Oxford, United Kingdom
     when: June 2024 - September 2024
+    notes:
+      - worked closely with other waiters to ensure smooth operations
+      - efficiently managed multiple tables and orders
+      - developed strong communication skills through daily interactions with customers
 education:
   - who: University College London (UCL)
     what: BSc Computer Science
