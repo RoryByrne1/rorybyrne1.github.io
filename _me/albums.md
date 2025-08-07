@@ -1,5 +1,5 @@
 ---
-title: favourite albums
+title: my favourite albums
 order: 100
 list:
   - title: Ants From Up There
@@ -44,11 +44,11 @@ list:
     image: /assets/albums/heavymetal.png
     link: https://open.spotify.com/album/7mOrnQqDad3RgYQsJGaaqk
 
-  - title: Carrie & Lowell
-    creator: Sufjan Stevens
-    year: 2015
-    image: /assets/albums/carrie&lowell.jpg
-    link: https://open.spotify.com/album/0U8DeqqKDgIhIiWOdqiQXE
+  # - title: Carrie & Lowell
+  #   creator: Sufjan Stevens
+  #   year: 2015
+  #   image: /assets/albums/carrie&lowell.jpg
+  #   link: https://open.spotify.com/album/0U8DeqqKDgIhIiWOdqiQXE
     
   - title: The Glow Pt. 2
     creator: The Microphones
@@ -56,11 +56,11 @@ list:
     image: /assets/albums/theglowpt2.jpg
     link: https://open.spotify.com/album/6QYoRO2sXThCORAifrP4Bl
 
-  - title: Dummy
-    creator: Portishead
-    year: 1994
-    image: /assets/albums/dummy.png
-    link: https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno
+  # - title: Dummy
+  #   creator: Portishead
+  #   year: 1994
+  #   image: /assets/albums/dummy.png
+  #   link: https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno
 
   - title: Hail to the Thief
     creator: Radiohead
@@ -74,18 +74,20 @@ list:
     image: /assets/albums/dnwmibiy.png
     link: https://open.spotify.com/album/7Ln81p86r5cCsesd3KBWIY
 
-  - title: If You're Feeling Sinister
-    creator: Belle and Sebastian
-    year: 1996
-    image: /assets/albums/b&s.jpg
+  # - title: If You're Feeling Sinister
+  #   creator: Belle and Sebastian
+  #   year: 1996
+  #   image: /assets/albums/b&s.jpg
 
-  - title: Twin Fantasy
-    creator: Car Seat Headrest
-    year: 2018
-    image: /assets/albums/twinfantasy.jpg
+  # - title: Twin Fantasy
+  #   creator: Car Seat Headrest
+  #   year: 2018
+  #   image: /assets/albums/twinfantasy.jpg
 ---
 
-*album art copyright belongs to the respective artists/labels*
+<div class="small-text">album art copyright belongs to the respective artists/labels</div>
+
+Other favourites include Ys, Carrie & Lowell, Dummy, If You're Feeling Sinister, Twin Fantasy, In Rainbows
 
 There are many more albums that I love but these are the ones that inspire me most, inspiring me in ways more than just musically.
 

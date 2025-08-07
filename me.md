@@ -12,7 +12,7 @@ It's self-indulgent to think anyone will be interested but here is more about me
   {% for section in me_sections %}
     {% if section.order != -1 %}
       <div class="me-tile">
-        {% if section.title == "favourite albums" or section.title == "games that inspire me" %}
+        {% if section.title == "my favourite games" or section.title == "my favourite albums" %}
           <h3>{{ section.title }}</h3>
           <div class="image-tiles">
             {% assign tiles = section.list | sort: "year" | reverse %}
