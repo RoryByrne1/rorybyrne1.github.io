@@ -11,7 +11,7 @@ title: about
     
     My name is Rory Byrne and I was born the youngest of 5 in Oxfordshire in 2006.
     I am a Computer Science student at UCL, interested in web and game development.
-    My other interests include music, cooking, playing badminton, making jewellery, and taking pictures.
+    My other interests include music, cooking, making jewellery, playing badminton, and taking pictures.
 
 </div>
 

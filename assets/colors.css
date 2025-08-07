@@ -49,7 +49,11 @@ yellow {
   --muted-lemon:   #F4D35E;     /* muted lemon */
   --buttercream:   #FFF7D6;     /* buttercream */
   --cream-glow:    #FFFBEA;     /* cream-glow */
+  --warm-gold:     #D4A017;     /* warm gold */
+  --deep-gold:     #B3861A;     /* deep gold */
+  --soft-coral:    #E27D60;     /* soft coral */
+  --earth-coral:   #B85F48;    /* earth coral */
 
   --body-font:   "Roboto", serif;
-  --accent-font: "Fira Code", monospace;
+  --accent-font: "Fira Code", monospace, sans-serif;
 }

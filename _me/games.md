@@ -1,5 +1,5 @@
 ---
-title: games that inspire me
+title: my favourite games
 order: 75
 list:
 #   - title: Minecraft
@@ -14,11 +14,11 @@ list:
     image: /assets/games/outerwilds.jpg
     link:
 
-  - title: Stardew Valley
-    creator: Concerned Ape
-    year: 2016
-    image: /assets/games/stardewvalley.jpeg
-    link: 
+  # - title: Stardew Valley
+  #   creator: Concerned Ape
+  #   year: 2016
+  #   image: /assets/games/stardewvalley.jpeg
+  #   link: 
 
   - title: Outward # RPG systems, co-op
     creator: Nine Dots
@@ -44,11 +44,11 @@ list:
     image: /assets/games/hollowknight.jpg
     link: 
 
-  - title: A Short Hike
-    creator: Adam Robinson-Yu
-    year: 2019
-    image: /assets/games/ashorthike.png
-    link: 
+  # - title: A Short Hike
+  #   creator: Adam Robinson-Yu
+  #   year: 2019
+  #   image: /assets/games/ashorthike.png
+  #   link: 
 
   - title: The Witness # puzzles, eeriness, unlike anything else
     creator: Thekla, Inc.
@@ -56,11 +56,11 @@ list:
     image: /assets/games/thewitness.jpeg
     link: 
     
-  - title: "The Elder Scrolls V: Skyrim"
-    creator: Bethesda Game Studios
-    year: 2011
-    image: /assets/games/skyrim.jpg
-    link: 
+  # - title: "The Elder Scrolls V: Skyrim"
+  #   creator: Bethesda Game Studios
+  #   year: 2011
+  #   image: /assets/games/skyrim.jpg
+  #   link: 
 
   - title: Shadow of the Colossus # storytelling, puzzles, art style / atmosphere
     creator: Sony Computer Entertainment
@@ -98,11 +98,11 @@ list:
 #     image: /assets/games/acnh.jpg
 #     link: 
 
-  - title: The Last of Us
-    creator: Naughty Dog
-    year: 2013
-    image: /assets/games/thelastofus.jpg
-    link: 
+  # - title: The Last of Us
+  #   creator: Naughty Dog
+  #   year: 2013
+  #   image: /assets/games/thelastofus.jpg
+  #   link: 
 
   - title: Rain World # innovation, world doesn't care, graphics, atmosphere
     creator: Videocult
@@ -110,18 +110,24 @@ list:
     image: /assets/games/rainworld.jpg
     link: 
 
-  - title: Ico # innovation, atmosphere, storytelling
-    creator: Sony Computer Entertainment
-    year: 2001
-    image: /assets/games/ico.png
+  # - title: Ico # innovation, atmosphere, storytelling
+  #   creator: Sony Computer Entertainment
+  #   year: 2001
+  #   image: /assets/games/ico.png
 
-  - title: Celeste # soundtrack, graphics
-    creator: Maddy Makes Games
-    year: 2018
-    image: /assets/games/celeste.png
+  # - title: Celeste # soundtrack, graphics
+  #   creator: Maddy Makes Games
+  #   year: 2018
+  #   image: /assets/games/celeste.png
 ---
 
-*game art copyright belongs to the respective creators/publishers*
+<div class="small-text">game art copyright belongs to the respective creators/publishers</div>
+
+Other favourites include Minecraft, Stardew Valley, Celeste, Portal, Skyrim, A Short Hike, The Last of Us, Slime Rancher, Ico
+
+These games did something interesting
+
+Growing up with 3 older brothers I've always had games in the house.
 
 any game i've ever played has inspired me
 

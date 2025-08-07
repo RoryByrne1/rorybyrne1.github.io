@@ -1,0 +1,24 @@
+---
+layout: devlog
+title: the project
+date: 2025-06-08
+project: old
+---
+
+## motivations
+
+This summer, I want to expand my portfolio and start a new project, one that I can learn from and put on my CV. I've wanted to create a role-playing game (RPG) - a very broad and ambitious genre - for a while, but this is a very dumb summer project as RPGs of any significant scale take a very long time to create and are notoriously hard to finish. So, I'm not approaching this project as a full game by any means but as a demo or system prototype to demonstrate skills and creativity.
+
+I'm not going to concern myself with any sort of story at this point. Although the idea of creating a game because you have this story you want to tell or fantasy you want to create is a wonderful goal, I'm doing this project because I want to learn and make something interactive so I'm placing a priority on the features and gameplay aspects. I want to build something simple that I can showcase, a small slice of an RPG that includes a playable character, maybe some enemies, and some world generation tools if I get that far.
+
+Hopefully, this will be a smaller project behind a large long term project. I want it to be something that I'll keep coming up with new ideas for and will keep coming back to expand upon while doing other projects at the same time, maybe I'll eventually find a story to tell. I admit that it is pretty naive to expect that one of my first projects will be a project that will last me a long time, but at the moment I have a lot of ideas and passion for it. Maybe it won't work out and maybe I'll never come back to it, but even if things fall through and I do never come back to it, I'll learn a lot in the process, and thats my main goal.
+
+This project will have a very steep learning curve. I've created [one game before](/projects/twin-stick-shooter) using Python and PyGame, but this time I'll need to learn a game development engine. Nonetheless, I'm excited to get started.
+
+## first decisions
+
+The first steps of this project are to decide on its core foundations, like whether to make it 2D or 3D, what art style I'm going for, and then decide on the game development engine to use. For the former, the project will be 2D and pixel art. It will be 2D mainly because I have no experience in creating anything 3D at all, so its simpler to start with. It will be pixel art as it's the obvious choice for small scale 2D projects and I have some experience in it from my last game. In terms of the engine, from what I know there are two main choices for this project: *Unity* and *Godot*. Unity is an industry standard, has more tutorials, has better 3D support, and uses C#. Godot is open-source, more lightweight, easier to learn, has growing popularity, and primarily uses GDScript - a Python-esque language. It’s not an easy decision, but while Unity has a lot of very appealing qualities - its very useful to learn for the industry, it uses C# (a language I am more interested in learning), and it has a large, active community - I am going to start with Godot. Godot’s lightweight and intuitive design and its focus on 2D tools makes it better suited to projects like this one where I want to make something small, light, and quickly. In the future I'll definitely want to try my hand at more complex and 3D games so I am sure I will end up using Unity, but I think learning Godot now will offer an easier starting point and will still teach me a lot of transferable skills.
+
+## next
+
+Now I need to get started. I'll first have to download Godot and start learning how to use it, probably by following some tutorials to get familiar. I have a lot of exciting ideas for the core systems and character functionality which I will detail when I get around to implementing them. If all goes well I'll keep this page updated with my progress, but this won't be quick to start with as I'm working on another project simultaneously (this website) and am quite busy at the moment.
