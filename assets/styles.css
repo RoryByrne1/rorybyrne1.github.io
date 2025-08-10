@@ -85,6 +85,10 @@ body.site {
   color: inherit;
 }
 
+.devlog-item:hover .devlog-title h2 {
+  color: var(--title-hover)
+}
+
 .devlog-title {
   font-family: var(--accent-font);
   margin: 2rem 1rem 0.5rem 1rem;
@@ -94,9 +98,17 @@ body.site {
   margin: 0;
 }
 
+.devlog-big-title {
+  font-family: var(--accent-font);
+}
+
+.devlog-big-title h1 {
+  margin-bottom: 0;
+}
+
 .devlog-content {
   margin: 0 2rem 1rem 2rem;
-  padding: 0rem 1rem;
+  padding: 1rem 1rem;
   border: 2px solid var(--body-hover);
   border-radius: 8px;
 }
@@ -265,7 +277,7 @@ ul li::before {
 
   .devlog-content {
     margin: 0 0.5rem 1rem 0.5rem;
-    padding: 0 0.5rem;
+    padding: 0.5 0.5rem;
   }
 
   .me-tiles {
