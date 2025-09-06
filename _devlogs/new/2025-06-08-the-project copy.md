@@ -7,7 +7,7 @@ project: new
 
 ## motivations
 
-This summer, I want to expand my portfolio and make  game, one that I can learn from and show. I'm not going to concern myself with making a finished game of any sort, this project will be more of a demo. Maybe this will be a smaller project behind a large long term project, I want it to be something that I'll keep coming up with new ideas for and will keep coming back to expand upon. Its a little naive to expect that one of my first projects will be a project that will last me a long time, but at the moment I have a lot of ideas for it. Maybe it won't work out and maybe I'll never come back to it, but I'll learn a lot.
+This summer, I want to expand my portfolio and make a game, one that I can learn from and show. I'm not going to concern myself with making a finished game of any sort, this project will be more of a demo. Maybe this will be a smaller project behind a large long term project, I want it to be something that I'll keep coming up with new ideas for and will keep coming back to expand upon. Its a little naive to expect that one of my first projects will be a project that will last me a long time, but at the moment I have a lot of ideas for it. Maybe it won't work out and maybe I'll never come back to it, but I'll learn a lot.
 
 This project may have a steep learning curve. I've created [one game before](/projects/twin-stick-shooter) and that was using Python and PyGame, this time I'll need to learn a game development engine.
 
