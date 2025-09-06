@@ -108,9 +108,6 @@ body.site {
 
 .devlog-content {
   margin: 0 2rem 1rem 2rem;
-  padding: 1rem 1rem;
-  border: 2px solid var(--body-hover);
-  border-radius: 8px;
 }
 
 a {

@@ -5,8 +5,6 @@ title: me
 
 # more about me
 
-It's self-indulgent to think anyone will be interested but here is more about me. This is mostly for me, to keep my interests, inspirations, and ideas in one place, though I'm probably hoping someone will think I'm cool.
-
 <div class="me-tiles">
   {% assign me_sections = site.me | sort: "order" %}
   {% for section in me_sections %}
