@@ -10,7 +10,6 @@ title: projects
   {% for page in pages %}
     {% if page.dir == "/projects/" and page.title != "projects" %}
       <a href="{{ page.url }}" class="project-tile">
-        <!-- <li><a href="{{ page.url }}">{{ page.title }}</a></li> -->
         <img src="/assets/projects/{{ page.slug }}.png" class="project-image">
         <span class="project-title">{{ page.title }}</span>
       </a>
