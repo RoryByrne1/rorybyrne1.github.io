@@ -4,18 +4,19 @@ title: projects
 ---
 
 # my projects
-this is where i put my projects
 
-
-<ul>
-  {% for page in site.pages %}
+<div class="project-tiles">
+  {% assign pages = site.pages | sort: "date" | reverse %}
+  {% for page in pages %}
     {% if page.dir == "/projects/" and page.title != "projects" %}
-      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      <a href="{{ page.url }}" class="project-tile">
+        <!-- <li><a href="{{ page.url }}">{{ page.title }}</a></li> -->
+        <img src="/assets/projects/{{ page.slug }}.png" class="project-image">
+        <span class="project-title">{{ page.title }}</span>
+      </a>
     {% endif %}
   {% endfor %}
-</ul>
-
-make this display fancier
+</div>
 
 <!-- ## latest logs -->
 <!-- <ul>
