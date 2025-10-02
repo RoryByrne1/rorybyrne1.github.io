@@ -6,3 +6,7 @@ collections:
     output: true
   me:
     output: false
+  music:
+    output: false
+  video-games:
+    output: false
