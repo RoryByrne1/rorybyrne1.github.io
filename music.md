@@ -85,6 +85,8 @@ list:
     image: /assets/albums/twinfantasy.jpg
 ---
 
+<a href="/">← back to about</a>
+
 # music
 
 i play and listen to a lot of music
