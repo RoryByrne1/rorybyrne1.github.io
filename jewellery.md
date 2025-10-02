@@ -43,6 +43,8 @@ list:
     dated: march 2023
 ---
 
+<a href="/">← back to about</a>
+
 # jewellery
 
 in maybe november or december of 2022 i started making rings out of my old guitar strings

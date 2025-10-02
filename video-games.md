@@ -121,6 +121,8 @@ list:
     image: /assets/games/celeste.png
 ---
 
+<a href="/">← back to about</a>
+
 # video games
 
 being raised with 3 older brothers, video games were a big part of my childhood
