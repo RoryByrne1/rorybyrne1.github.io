@@ -2,6 +2,12 @@
 layout: default
 title: music
 list:
+  - title: 'Hollow Knight: Silksong'
+    creator: Team Cherry
+    year: 2025
+    image: /assets/games/silksong.png
+    link: 
+
   - title: Minecraft
     creator: Mojang
     year: 2012
@@ -125,11 +131,11 @@ list:
 
 # video games
 
-being raised with 3 older brothers, video games were a big part of my childhood
+being raised with 3 older brothers i played a lot of video games growing up
 
-i don't play very many games now and mostly only play games with other people but i do love the ones i play, so my favourite games are by in large the only games i've played
+i don't play very many games now and mostly only play games with other people but i do love the ones i play
 
-below is a list of said favourite games
+below is a list of my favourite games
 
 <div class="image-tiles">
     {% assign tiles = page.list | sort: "year" | reverse %}

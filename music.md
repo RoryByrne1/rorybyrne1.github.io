@@ -2,6 +2,18 @@
 layout: default
 title: music
 list:
+  - title: In Rainbows
+    creator: Radiohead
+    year: 2007
+    image: /assets/albums/inrainbows.png
+    link: 
+
+  - title: Getting Killed
+    creator: Geese
+    year: 2025
+    image: /assets/albums/gettingkilled.jpg
+    link: 
+    
   - title: Ants From Up There
     creator: Black Country, New Road
     year: 2022
@@ -91,7 +103,7 @@ list:
 
 i play and listen to a lot of music
 
-i've been playing piano and guitar since I was 9, more recently starting to play bass and drums as well
+i've been playing piano and guitar for a very long time, more recently starting to play bass and drums as well
 
 below are a list of my favourite albums
 

@@ -57,6 +57,8 @@ i make these for myself and for my favourite people
 
 below is a gallery of some of the ones i remembered to take pictures of
 
+i'm not sure why i liked taking pictures with that rock
+
 <div class="gallery">
   {% assign tiles = page.list | sort: "date" | reverse %}
   {% for tile in tiles %}

@@ -7,4 +7,4 @@ title: photos
 
 # photos
 
-below will be a gallery of some of my favourite photos
+below may be a gallery of some of my favourite photos
