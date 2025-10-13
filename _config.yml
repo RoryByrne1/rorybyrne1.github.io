@@ -10,3 +10,7 @@ collections:
     output: false
   video-games:
     output: false
+  photos:
+    output: false
+  jewellery:
+    output: false

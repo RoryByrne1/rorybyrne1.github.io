@@ -63,7 +63,7 @@ i'm not sure why i liked taking pictures with that rock
   {% assign tiles = page.list | sort: "date" | reverse %}
   {% for tile in tiles %}
     <div class="gallery-tile">
-      <img src="{{ tile.image }}" alt="{{ tile.title }} cover" class="tile-cover">
+      <img src="{{ tile.image }}" alt="{{ tile.description }}" class="tile-cover">
       <strong class="gallery-date">{{ tile.dated }}</strong><br>
       <span>{{ tile.description }}</span>
     </div>
