@@ -5,14 +5,14 @@ list:
   - date: 2025-08-19
     description: 
     where: Connemara, Ireland
-    image: /assets/photos/DSC06867.jpg
+    image: /assets/photos/DSC06867.JPG
     camera: Sony DSC-RX100
     settings: f/5, 1/250 sec, ISO 200
 
   - date: 2025-08-20
     description:
     where: Connemara, Ireland
-    image: /assets/photos/DSC07132.jpg
+    image: /assets/photos/DSC07132.JPG
     camera: Sony DSC-RX100
     settings: f/6.3, 1/500 sec, ISO 400
 
