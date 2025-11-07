@@ -20,6 +20,20 @@ for (let i = 0; i < width * width; i++) {
         cell.classList.add('on');
     })
 
+    cell.addEventListener("touchstart", (e) => {
+        e.preventDefault();
+        cell.classList.add("on");
+    });
+
+    cell.addEventListener("touchmove", (e) => {
+        e.preventDefault();
+        const touch = e.touches[0];
+        const el = document.elementFromPoint(touch.clientX, touch.clientY);
+        if (el && el.classList.contains("draw-cell")) {
+            el.classList.add("on");
+        }
+    });
+
     grid.appendChild(cell);
 }
 
@@ -54,7 +68,7 @@ document.getElementById('downloadButton').addEventListener('click', () => {
     a.click();
 })
 
-document.getElementById('sendBtn').addEventListener('click', () => {
+document.getElementById('sendButton').addEventListener('click', () => {
     let text = "";
     document.querySelectorAll('.draw-cell').forEach((cell, i) => {
         text += cell.classList.contains('on') ? '#' : '  ';
