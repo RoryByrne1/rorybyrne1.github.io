@@ -6,7 +6,7 @@ title: about
 # about me
 
 <div class="index">
-  <a href="/"><img width=250 src="/assets/rory2.JPG" class="image"></a>
+  <a href="/"><img width=250 src="/" class="image" alt-text="a picture of me"></a>
   
   <div class="index-text">
     I was born the youngest of 5 in Oxfordshire in 2006.
@@ -18,4 +18,5 @@ title: about
 - [my projects](/projects)
 - [my cv](/cv)
 - [contact me](/contact)
+- [draw](/draw)
 <!-- - [more about me](/me) -->

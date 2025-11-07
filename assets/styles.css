@@ -1,5 +1,9 @@
 @import url('colors.css');
 
+body {
+  background-color: var(--background);
+}
+
 /* header and footer styles */
 .site-header {
   font-family: var(--accent-font);
@@ -71,7 +75,6 @@ body.site {
   flex: 2;
   padding: 1.5rem 0rem;
   width: 45rem;
-  background: white;
   border-radius: 8px;
 }
 
@@ -88,7 +91,7 @@ body.site {
 }
 
 .image {
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   width: 13rem;
 }
 
@@ -341,10 +344,33 @@ ul li::before {
   font-style: italic;
 }
 
+/* draw */
+.draw-grid {
+  display: grid; grid-template-columns: repeat(24, 20px);
+  margin-bottom: 1em;
+}
+
+.draw-cell {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid var(--body-text);
+  box-sizing: border-box;
+}
+
+.draw-cell.on {
+  background: var(--body-text);
+}
+
+.draw-button {
+  border-radius: 0;
+}
+/*======*/
+
 /* for phones */
-@media (max-width: 700px) {
+@media (max-width: 740px) {
   .site-content {
-    width: 80vw;
+    width: 90vw;
     padding: 0.5rem 0.5rem;
     border-radius: 0;
   }
@@ -385,6 +411,20 @@ ul li::before {
     .project-title {
       font-size: 1rem;
     }
+  }
+}
+
+@media (max-width: 540px) {
+  .draw-grid {
+    display: grid; grid-template-columns: repeat(24, 3.8vw);
+  }
+
+  .draw-cell {
+    width: 3.8vw;
+    height: 3.8vw;
+    background: white;
+    border: 1px solid var(--body-text);
+    box-sizing: border-box;
   }
 }
 

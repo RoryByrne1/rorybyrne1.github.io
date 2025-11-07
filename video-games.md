@@ -125,6 +125,16 @@ list:
     creator: Maddy Makes Games
     year: 2018
     image: /assets/games/celeste.png
+
+  - title: "The Legend of Zelda: The Wind Waker"
+    creator: Nintendo
+    year: 2002
+    image: /assets/games/windwaker.webp
+
+  - title: "Tomodachi Life" # soundtrack, graphics
+    creator: Nintendo
+    year: 2013
+    image: /assets/games/tomodachi.jpg
 ---
 
 <a href="/">← back to about</a>
@@ -135,7 +145,7 @@ being raised with 3 older brothers i played a lot of video games growing up
 
 i don't play very many games now and mostly only play games with other people but i do love the ones i play
 
-below is a list of my favourite games
+below are some of my favourite games
 
 <div class="image-tiles">
     {% assign tiles = page.list | sort: "year" | reverse %}

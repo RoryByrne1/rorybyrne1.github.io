@@ -37,20 +37,6 @@ list:
     camera: Sony DSC-RX100
     settings: f/4.5, 1/1000 sec, ISO 200
 
-  - date: 2025-08-29
-    description:
-    where: Dingle Peninsula, Ireland
-    image: /assets/photos/DSC08473.JPG
-    camera: Sony DSC-RX100
-    settings: f/4, 1/500 sec, ISO 80
-
-  - date: 2025-09-03
-    description:
-    where: Dingle Peninsula, Ireland
-    image: /assets/photos/DSC08960.JPG
-    camera: Sony DSC-RX100
-    settings: f/10, 1/160 sec, ISO 1600
-
   - date: 2024-09-12
     description:
     where: Oxfordshire, England

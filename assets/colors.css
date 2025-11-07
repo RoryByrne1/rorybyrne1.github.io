@@ -35,7 +35,7 @@ yellow {
 :root {
   --title-text:    #4A4A4A;     /* charcoal */
   --title-hover:   #696969;     /* warm ash */
-  --body-text:     #5A5A5A;     /* soft-charcoal */
+  --body-text:     #4A4A4A;     /* soft-charcoal */
   --body-hover:    #888888;     /* warm ash */
   --accent-text:   #C44536;
   --accent-hover:  #992a22;
@@ -52,8 +52,29 @@ yellow {
   --warm-gold:     #D4A017;     /* warm gold */
   --deep-gold:     #B3861A;     /* deep gold */
   --soft-coral:    #E27D60;     /* soft coral */
-  --earth-coral:   #B85F48;    /* earth coral */
+  --earth-coral:   #B85F48;     /* earth coral */
+
+  --background:    #FFFFFF;     /* white */
 
   --body-font:   "Roboto", serif;
   --accent-font: "Fira Code", monospace, sans-serif;
+}
+
+:root2 {
+  --title-text:    #E5E5E5;     /* light ash white */
+  --title-hover:   #FFFFFF;     /* pure white for contrast */
+  --body-text:     #CCCCCC;     /* soft light gray */
+  --body-hover:    #AAAAAA;     /* slightly brighter hover */
+  --accent-text:   #FF6B57;     /* warm coral accent */
+  --accent-hover:  #E24A38;     /* darker coral-red hover */
+
+  --rust-red:      #FF6B57;     /* brighter rust red for dark bg */
+  --dark-rust:     #E24A38;     /* darker but vibrant rust red */
+
+  --body-font:   "Roboto", serif;
+  --accent-font: "Fira Code", monospace, sans-serif;
+
+  --background:   #1E1E1E;     /* deep charcoal background */
+  --surface:      #2A2A2A;     /* slightly lighter panels/cards */
+  --border:       #3A3A3A;     /* subtle divider lines */
 }

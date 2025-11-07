@@ -91,10 +91,21 @@ list:
     year: 1996
     image: /assets/albums/b&s.jpg
 
-  - title: Twin Fantasy
-    creator: Car Seat Headrest
-    year: 2018
-    image: /assets/albums/twinfantasy.jpg
+  - title: Two Saviors
+    creator: Buck Meek
+    year: 2021
+    image: /assets/albums/twosaviors.jpg
+
+  - title: 3D Country
+    creator: Geese
+    year: 2023
+    image: /assets/albums/3dcountry.png
+
+  - title: Bloom
+    creator: Beach House
+    year: 2012
+    image: /assets/albums/bloom.png
+  # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched
 ---
 
 <a href="/">← back to about</a>
@@ -103,9 +114,9 @@ list:
 
 i play and listen to a lot of music
 
-i've been playing piano and guitar for a very long time, more recently starting to play bass and drums as well
+i've been playing piano and guitar for a very long time, more recently starting to play bass and drums
 
-below are a list of my favourite albums
+below are some of my favourite albums
 
 <div class="image-tiles">
     {% assign tiles = page.list | sort: "year" | reverse %}
