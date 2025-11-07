@@ -8,7 +8,7 @@ title: projects
 <div class="project-tiles">
   {% assign pages = site.pages | sort: "date" | reverse %}
   {% for page in pages %}
-    {% if page.dir == "/projects/" and page.title != "projects" %}
+    {% if page.dir == "/projects/" and page.title != "projects" and page.title != "New Project" %}
       <a href="{{ page.url }}" class="project-tile">
         <img src="/assets/projects/{{ page.slug }}.png" class="project-image">
         <span class="project-title">{{ page.title }}</span>

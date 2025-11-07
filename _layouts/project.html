@@ -4,3 +4,10 @@ layout: default
 <a href="/projects">← back to projects</a>
 <h1>{{ page.title }}</h1>
 <div>{{ content }}</div>
+<h2 class="skills">skills</h2>
+<ul>
+{% assign skills = page.skills %}
+{% for skill in skills %}
+    <li>{{ skill }}</li>
+{% endfor %}
+</ul>

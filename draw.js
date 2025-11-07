@@ -92,30 +92,13 @@ document.getElementById('downloadButton').addEventListener('click', () => {
 
 // ENCODING AND DECODING
 function encode() {
-    // let bytes = "";
-    // let byte = "";
-    // document.querySelectorAll('.draw-cell').forEach((c, i) => { 
-    //     byte += c.classList.contains('on') ? '1' : '0';
-    //     if ((i+1) % 8 == 0) {
-    //         bytes += String.fromCharCode(parseInt(byte, 2));
-    //         byte = "";
-    //     }
-    // })
-
-    // if (byte.length > 0) {
-    //     byte = byte.padEnd(8, '0');
-    //     bytes += String.fromCharCode(parseInt(byte, 2));
-    // }
-
-    // return btoa(bytes);
-
     const bits = Array.from(document.querySelectorAll('.draw-cell'))
         .map(c => c.classList.contains('on') ? '1' : '0')
         .join("");
     
     let hex = '';
     for (let i = 0; i < bits.length; i += 4) {
-        const nibble = bits.substr(i, 4).padEnd(4, '0'); // pad last nibble
+        const nibble = bits.substr(i, 4).padEnd(4, '0');
         hex += parseInt(nibble, 2).toString(16);
     }
     return hex;
@@ -125,7 +108,7 @@ function getLink() {
     return `${location.origin}${location.pathname}?data=${encode()}`;
 }
 
-function decode(hex) {
+function decode() {
     let bits = '';
     for (let i = 0; i < hex.length; i++) {
         bits += parseInt(hex[i], 16).toString(2).padStart(4, '0');
@@ -142,11 +125,5 @@ document.getElementById('linkButton').addEventListener('click', () => {
 
 // SEND
 document.getElementById('sendButton').addEventListener('click', () => {
-    // let body = "";
-    // document.querySelectorAll('.draw-cell').forEach((cell, i) => {
-    //     body += cell.classList.contains('on') ? '#' : '  ';
-    //     if (i % width == 0) body += '\n';
-    // })
-
     window.open(`mailto:rory26byrne@gmail.com?subject=look what i drew&body=${encodeURIComponent(getLink())}`, '_blank');
 });

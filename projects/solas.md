@@ -4,6 +4,10 @@ title: solasoxford.com
 slug: solas
 date: 2025-08
 description: solas
+skills:
+  - WordPress
+  - Local WP
+  - Elementor
 ---
 
 I have been hired by Solas Oxford CIC to redesign and update their website.

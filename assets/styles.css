@@ -367,6 +367,11 @@ ul li::before {
 }
 /*======*/
 
+.skills {
+  margin-top: 1.5em;
+  margin-bottom: -0.4em;
+}
+
 /* for phones */
 @media (max-width: 740px) {
   .site-content {

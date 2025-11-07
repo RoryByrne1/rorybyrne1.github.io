@@ -4,6 +4,11 @@ title: Twin Stick Shooter
 slug: twin-stick-shooter
 date: 2024-03
 description: Computer Science A Level NEA
+skills:
+  - Python
+  - PyGame
+  - SQLite
+  - Aseprite
 ---
 
 In Computer Science A-Level, every student is required to do a Non-Exam Assessment (NEA). This is a coursework where you choose a problem and then create a solution along with a document that documents the process.
