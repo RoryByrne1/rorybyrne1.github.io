@@ -2,21 +2,6 @@ const width = 24
 const grid = document.getElementById('grid');
 let drawing = false;
 
-// DECODE URL
-window.onload = () => {
-    const params = new URLSearchParams(location.search);
-    const data = params.get("data");
-    let cells = document.querySelectorAll('.draw-cell');
-    
-    if (data) {
-        const bits = decode(data);
-        bits.split("").forEach((bit, i) => {
-            if (bit === "1") cells[i].classList.add("on");
-        });
-    }
-}
-
-
 // SETUP AND DRAWING
 grid.addEventListener('dragstart', (e) => {
   e.preventDefault();
@@ -89,6 +74,20 @@ document.getElementById('downloadButton').addEventListener('click', () => {
     a.click();
 })
 
+// DECODE URL
+window.onload = () => {
+    const params = new URLSearchParams(location.search);
+    const data = params.get("data");
+    let cells = document.querySelectorAll('.draw-cell');
+    
+    if (data) {
+        const bits = decode(data);
+        bits.split("").forEach((bit, i) => {
+            if (bit === "1") cells[i].classList.add("on");
+        });
+    }
+}
+
 
 // ENCODING AND DECODING
 function encode() {
@@ -108,7 +107,7 @@ function getLink() {
     return `${location.origin}${location.pathname}?data=${encode()}`;
 }
 
-function decode() {
+function decode(hex) {
     let bits = '';
     for (let i = 0; i < hex.length; i++) {
         bits += parseInt(hex[i], 16).toString(2).padStart(4, '0');
