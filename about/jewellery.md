@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: jewellery
 list:
   - date: 2024-08-14
@@ -40,12 +40,8 @@ list:
   - date: 2023-03-12
     description: an adjustable ring
     image: /assets/jewellery/IMG_5669.jpg
-    dated: march 2023
+    daed: march 2023
 ---
-
-<a href="/">← back to about</a>
-
-# jewellery
 
 in maybe november or december of 2022 i started making rings out of my old guitar strings
 

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: projects
+title: works
 ---
 
-# my projects
+# works
 
 <div class="project-tiles">
   {% assign pages = site.pages | sort: "date" | reverse %}
   {% for page in pages %}
-    {% if page.dir == "/projects/" and page.title != "projects" and page.title != "New Project" %}
+    {% if page.dir == "/works/" and page.title != "works" and page.title != "New Project" %}
       <a href="{{ page.url }}" class="project-tile">
         <img src="/assets/projects/{{ page.slug }}.png" class="project-image">
         <span class="project-title">{{ page.title }}</span>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: photos
 list:
   - date: 2025-08-19
@@ -44,10 +44,6 @@ list:
     camera: Canon EOS 400D
     settings: f/5.6, 1/400 sec, ISO 1600
 ---
-
-<a href="/">← back to about</a>
-
-# photos
 
 below is a gallery of some of my favourite photos that i've taken
 

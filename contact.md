@@ -3,7 +3,7 @@ layout: default
 title: contact
 ---
 
-# contact me
+# contact
 <!-- 
 ## [email](https://mailto/) 
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: music
 list:
   - title: In Rainbows
@@ -107,10 +107,6 @@ list:
     image: /assets/albums/bloom.png
   # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched
 ---
-
-<a href="/">← back to about</a>
-
-# music
 
 i play and listen to a lot of music
 

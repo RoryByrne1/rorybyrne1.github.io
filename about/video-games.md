@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: music
 list:
   - title: 'Hollow Knight: Silksong'
@@ -136,10 +136,6 @@ list:
     year: 2013
     image: /assets/games/tomodachi.jpg
 ---
-
-<a href="/">← back to about</a>
-
-# video games
 
 being raised with 3 older brothers i played a lot of video games growing up
 
