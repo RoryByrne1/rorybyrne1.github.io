@@ -57,7 +57,7 @@ yellow {
   --background:    #FFFFFF;     /* white */
 
   --body-font:   "Roboto", serif;
-  --accent-font: "Fira Code", monospace, sans-serif;
+  --accent-font:  "Consolas", monospace, sans-serif;
 }
 
 :root2 {

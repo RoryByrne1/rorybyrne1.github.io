@@ -368,7 +368,7 @@ ul li::before {
 /* for phones */
 @media (max-width: 740px) {
   .home-title {
-    font-size: 17vw;
+    font-size: 16vw;
   }
 
   .site-content {
