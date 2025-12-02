@@ -118,7 +118,24 @@ function decode(hex) {
 
 // LINK
 document.getElementById('linkButton').addEventListener('click', () => {
-    alert(getLink())
+    const link = getLink();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(link).then(() => {
+        }).catch(err => {
+            alert('failed to copy link');
+        });
+    } else {
+        const textarea = document.createElement('textarea');
+        textarea.value = link;
+        document.body.appendChild(textarea);
+        textarea.select();
+        try {
+            document.execCommand('copy');
+        } catch (err) {
+            alert('failed to copy link');
+        }
+        document.body.removeChild(textarea);
+    }
 })
 
 
