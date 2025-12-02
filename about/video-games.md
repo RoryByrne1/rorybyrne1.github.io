@@ -1,6 +1,6 @@
 ---
 layout: about
-title: music
+title: video games
 list:
   - title: 'Hollow Knight: Silksong'
     creator: Team Cherry
