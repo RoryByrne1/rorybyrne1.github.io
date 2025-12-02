@@ -14,7 +14,7 @@ I created a page on my website that lets you <a href="/draw" target="new">draw</
 
 You can export your drawing as a PNG. This uses a canvas, redrawing your drawing at 16 times the scale and then downloading it as a PNG.
 
-You can generate a link to your drawing. This encodes the drawing into a binary string and then into a hex string, adding it as a parameter to the URL. When you open the URL, the hex is decoded into a binary string and then into the grid.
+You can generate and copy a link to your drawing. This encodes the drawing into a binary string and then into a hex string, adds it as a parameter to a URL, and then copies this URL to your clipboard. When you open the URL, the hex is decoded into a binary string and then into the grid.
 
 You can email me the drawing. This opens a link with a prefilled subject and body containing your drawing's URL. I initially wanted to send the PNG but that is impossible without a server of sorts. I then tested out representing the grid as ASCII art in the email body but it couldn't format well with body length restrictions. Then I got the idea for encoding the grid and generating links. I added a filter to my inbox that automatically categorises these emails.
 

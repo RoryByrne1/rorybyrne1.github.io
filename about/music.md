@@ -121,7 +121,7 @@ below are some of my favourite albums
         <div class="tile-card">
             <img src="{{ tile.image }}" alt="{{ tile.title }} cover" class="tile-cover">
             <div class="tile-info">
-            <strong>{{ tile.title }}</strong><br>
+            <strong>{{ tile.title }}</strong>
             <span>{{ tile.creator }}</span>
             <span>{{ tile.year }}</span>
             </div>

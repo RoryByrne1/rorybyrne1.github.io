@@ -191,7 +191,10 @@ ul li::before {
   width: 100%;
   max-width: 100%;
   height: auto;
-  border: 4px solid var(--body-text);
+  border-top: 4px solid #8f8f9d;
+  border-left: 4px solid #8f8f9d;
+  border-bottom: 4px solid #5f5f68;
+  border-right: 4px solid #5f5f68;
   transition: border-color 0.2s ease;
   display: block; 
 }
@@ -347,16 +350,38 @@ ul li::before {
   width: 20px;
   height: 20px;
   background: white;
-  border: 1px solid var(--body-text);
+  border: 1px solid var(--draw-grid);
   box-sizing: border-box;
 }
 
 .draw-cell.on {
-  background: var(--body-text);
+  background: var(--draw-grid);
 }
 
 .draw-button {
   border-radius: 0;
+  color: var(--body-text);
+  background-color: #e9e9ed;
+  border-top: 2px solid #8f8f9d;
+  border-left: 2px solid #8f8f9d;
+  border-bottom: 2px solid #5f5f68;
+  border-right: 2px solid #5f5f68;
+}
+
+.draw-button:hover {
+  background-color: #D0D0D7;
+  border-top: 2px solid #676774;
+  border-left: 2px solid #676774;
+  border-right: 2px solid #45454D;
+  border-bottom: 2px solid #45454D;
+}
+
+.draw-button:active {
+  background-color: #B1B1B9;
+  border-top: 2px solid #303036;
+  border-left: 2px solid #303036;
+  border-right: 2px solid #484851;
+  border-bottom: 2px solid #484851;
 }
 /*======*/
 
@@ -368,6 +393,7 @@ ul li::before {
 /* for phones */
 @media (max-width: 740px) {
   .home-title {
+    margin-top: 2em;
     font-size: 16vw;
   }
 

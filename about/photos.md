@@ -16,13 +16,6 @@ list:
     camera: Sony DSC-RX100
     settings: f/6.3, 1/500 sec, ISO 400
 
-  - date: 2025-08-22
-    description:
-    where: Connemara, Ireland
-    image: /assets/photos/DSC07609.JPG
-    camera: Sony DSC-RX100
-    settings: f/5.6, 1/400 sec, ISO 200
-
   - date: 2025-08-26
     description:
     where: Dingle Peninsula, Ireland

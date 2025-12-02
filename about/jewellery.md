@@ -40,7 +40,7 @@ list:
   - date: 2023-03-12
     description: an adjustable ring
     image: /assets/jewellery/IMG_5669.jpg
-    daed: march 2023
+    dated: march 2023
 ---
 
 in maybe november or december of 2022 i started making rings out of my old guitar strings

@@ -35,10 +35,12 @@ yellow {
 :root {
   --title-text:    #4A4A4A;     /* charcoal */
   --title-hover:   #696969;     /* warm ash */
-  --body-text:     #4A4A4A;     /* soft-charcoal */
+  --body-text:     #4A4A4A;     /* charcoal */
   --body-hover:    #888888;     /* warm ash */
   --accent-text:   #C44536;
   --accent-hover:  #992a22;
+
+  --draw-grid: var(--body-text);
 
   --dark-sage:     #6F8F57;     /* dark sage */
   --sage-green:    #A8C686;     /* sage green */
@@ -56,17 +58,19 @@ yellow {
 
   --background:    #FFFFFF;     /* white */
 
-  --body-font:   "Roboto", serif;
-  --accent-font:  "Consolas", monospace, sans-serif;
+  --body-font:   "Roboto";
+  --accent-font:  "Roboto Mono", monospace;
 }
 
 :root2 {
-  --title-text:    #E5E5E5;     /* light ash white */
+  --title-text:    #EEEEEE;     /* light ash white */
   --title-hover:   #FFFFFF;     /* pure white for contrast */
-  --body-text:     #CCCCCC;     /* soft light gray */
+  --body-text:     #EEEEEE;     /* soft light gray */
   --body-hover:    #AAAAAA;     /* slightly brighter hover */
   --accent-text:   #FF6B57;     /* warm coral accent */
   --accent-hover:  #E24A38;     /* darker coral-red hover */
+
+  --draw-grid: var(--border);
 
   --rust-red:      #FF6B57;     /* brighter rust red for dark bg */
   --dark-rust:     #E24A38;     /* darker but vibrant rust red */

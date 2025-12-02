@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: works
 ---
 
@@ -10,7 +10,7 @@ title: works
   {% for page in pages %}
     {% if page.dir == "/works/" and page.title != "works" and page.title != "New Project" %}
       <a href="{{ page.url }}" class="project-tile">
-        <img src="/assets/projects/{{ page.slug }}.png" class="project-image">
+        <img src="/assets/projects/{{ page.slug }}.png" class="project-image retro-button">
         <span class="project-title">{{ page.title }}</span>
       </a>
     {% endif %}
