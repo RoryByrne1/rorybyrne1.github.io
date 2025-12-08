@@ -22,9 +22,11 @@ body {
   margin-bottom: 8px;
   text-decoration: none;
   color: var(--body-text);
+  transition: letter-spacing 0.5s ease;
 }
 
 .site-title:hover {
+  letter-spacing: 3%;
   color: var(--body-text);
 }
 
