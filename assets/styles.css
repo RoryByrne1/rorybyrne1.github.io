@@ -178,7 +178,7 @@ ul li::before {
 .project-tiles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1rem 2rem;
 }
 
 .project-tile {
@@ -280,13 +280,18 @@ ul li::before {
 
 .gallery {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 3.5rem;
+}
+
+.gallery-of-fame {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 1.5rem 3rem;
 }
 
 .gallery-date {
   font-family: var(--accent-font);
-  font-style: italic;
 }
 
 .photo-gallery {
@@ -363,6 +368,9 @@ ul li::before {
 
 .draw-button {
   border-radius: 0;
+  margin-right: 0.1rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
   color: var(--body-text);
   background-color: #e9e9ed;
   border-top: 2px solid #8f8f9d;
@@ -400,6 +408,10 @@ ul li::before {
     font-size: 16vw;
   }
 
+  .draw-button {
+    font-size: 0.8rem;
+  }
+
   .site-content {
     width: 90vw;
     border-radius: 0;
@@ -418,6 +430,13 @@ ul li::before {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
+  }
+
+  .gallery-of-fame {
+    display: grid;
+    max-width: 99%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 2.5rem;
   }
 
   .cv-entry {

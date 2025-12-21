@@ -18,4 +18,6 @@ You can generate and copy a link to your drawing. This encodes the drawing into 
 
 You can email me the drawing. This opens a link with a prefilled subject and body containing your drawing's URL. I initially wanted to send the PNG but that is impossible without a server of sorts. I then tested out representing the grid as ASCII art in the email body but it couldn't format well with body length restrictions. Then I got the idea for encoding the grid and generating links. I added a filter to my inbox that automatically categorises these emails.
 
+There is a <a href="/draw/hall-of-fame" target="new">hall of fame</a> of my favourite drawings that have been sent to me.
+
 I could've made this project more complex with different colours and erasing etc but it is simple on purpose and I think being able to erase is sometimes a drawback (although if you really want to you can edit the hex of a generated link).

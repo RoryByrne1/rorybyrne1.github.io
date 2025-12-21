@@ -143,3 +143,8 @@ document.getElementById('linkButton').addEventListener('click', () => {
 document.getElementById('sendButton').addEventListener('click', () => {
     window.open(`mailto:rory26byrne@gmail.com?subject=look what i drew&body=${encodeURIComponent(getLink())}`, '_blank');
 });
+
+// HALL OF FAME
+document.getElementById('hallButton').addEventListener('click', () => {
+    location.href = `hall-of-fame`;
+});
