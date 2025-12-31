@@ -366,6 +366,10 @@ ul li::before {
   background: var(--draw-grid);
 }
 
+.draw-buttons {
+  margin-bottom: .5em;
+}
+
 .draw-button {
   border-radius: 0;
   margin-right: 0.1rem;
