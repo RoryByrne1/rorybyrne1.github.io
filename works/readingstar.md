@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: project
 title: ReadingStar 2.0
 slug: readingstar
@@ -9,7 +9,7 @@ skills:
   - Electron
   - Python
   - FastAPI
---- -->
+---
 
 ReadingStar 2.0 is a work in progress offline AI-powered educational app using music to support speech development for autistic children, developed as part of the UCL Industry Exchange Network programme alongside my teammates Doruk Ersoy, Sinan Sensurucu, and Marko Stefanov. It is in collaboration with Intel, IBM, the National Autistic Society, and MotionInput Games.
 
