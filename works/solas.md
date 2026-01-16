@@ -12,6 +12,6 @@ skills:
 
 I have been hired by Solas Oxford CIC to redesign and update their website.
 
-I have yet to do this.
+This is in progress.
 
 The website can be found at <a href="https://solasoxford.com" target="new">solasoxford.com</a>.

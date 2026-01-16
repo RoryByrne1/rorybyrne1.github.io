@@ -70,6 +70,10 @@ h1 {
   margin-top: 0.2em;
 }
 
+h2 {
+  margin-bottom: 0.3em;
+}
+
 body.site {
   display: flex;
   flex-direction: column;
@@ -164,9 +168,8 @@ ul a {
 }
 
 ul li::before {
-  content: "> ";
+  content: "• ";
   font-family: var(--accent-font);
-  margin-right: 0.3em;
 }
 
 .contact-icons ul {
@@ -321,13 +324,11 @@ ul li::before {
 .cv-list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 3rem;
+  gap: .8rem;
 }
 
 .cv-entry {
   font-family: var(--accent-font);
-  padding: 0rem 1rem;
 }
 
 .cv-entry strong {
@@ -341,6 +342,21 @@ ul li::before {
   font-size: 0.9em;
   padding-left: 0.5em;
   margin: 0.5rem 0 0 0;
+}
+
+.cv-section {
+  margin-bottom: 2em;
+  margin-left: 1rem;
+}
+
+.cv-skills li::before {
+  content: "";
+  margin-right: 0;
+}
+
+.cv-skills strong {
+  font-family: var(--accent-font);
+  margin-right: 5px;
 }
 
 .cv-where {

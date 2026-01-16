@@ -105,7 +105,7 @@ list:
     creator: Beach House
     year: 2012
     image: /assets/albums/bloom.png
-  # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched
+  # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched, manning fireworks
 ---
 
 i play and listen to a lot of music
