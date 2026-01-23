@@ -2,6 +2,7 @@
 layout: project
 title: solasoxford.com
 slug: solas
+type: big
 date: 2025-08
 description: solas
 skills:

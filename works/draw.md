@@ -2,6 +2,7 @@
 layout: project
 title: draw
 slug: draw
+type: little
 date: 2025-11
 description: simple web pixel drawing
 skills:

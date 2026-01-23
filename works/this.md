@@ -2,6 +2,7 @@
 layout: project
 title: rorybyrne.com
 slug: this-website
+type: big
 date: 2025-05
 description: this website
 skills:

@@ -2,6 +2,7 @@
 layout: project
 title: Twin Stick Shooter
 slug: twin-stick-shooter
+type: big
 date: 2024-03
 description: Computer Science A Level NEA
 skills:

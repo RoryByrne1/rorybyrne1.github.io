@@ -2,6 +2,7 @@
 layout: project
 title: ReadingStar 2.0
 slug: readingstar
+type: big
 date: 2026-03
 description:
 skills:
