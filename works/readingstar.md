@@ -4,6 +4,7 @@ title: ReadingStar 2.0
 slug: readingstar
 type: big
 date: 2026-03
+d-date: November 2025 - March 2026
 description:
 skills:
   - JavaScript

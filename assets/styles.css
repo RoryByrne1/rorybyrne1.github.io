@@ -221,6 +221,16 @@ ul li::before {
   color: var(--accent-text);
 }
 
+.project-page-title {
+  margin-bottom: 0px;
+}
+
+.project-page-subtitle {
+  font-family: var(--accent-font);
+  color: var(--title-text);
+  padding-bottom: 5px;
+}
+
 .code {
   background: #23272e;
   color: #f8f8f2;

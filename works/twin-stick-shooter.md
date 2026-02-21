@@ -4,6 +4,7 @@ title: Twin Stick Shooter
 slug: twin-stick-shooter
 type: big
 date: 2024-03
+d-date: October 2023 - March 2024
 description: Computer Science A Level NEA
 skills:
   - Python

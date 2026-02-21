@@ -3,7 +3,8 @@ layout: project
 title: pseudo 3D maze
 slug: pseudo3d
 type: little
-date: 2023-06
+date: 2024-04
+d-date: April 2024
 description: pseudo 3d maze game
 skills:
   - Python

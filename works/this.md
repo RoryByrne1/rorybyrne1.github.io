@@ -4,6 +4,7 @@ title: rorybyrne.com
 slug: this-website
 type: big
 date: 2025-05
+d-date: May 2025 - present
 description: this website
 skills:
   - Jekyll

@@ -4,6 +4,7 @@ title: draw
 slug: draw
 type: little
 date: 2025-11
+d-date: November 2025
 description: simple web pixel drawing
 skills:
   - JavaScript

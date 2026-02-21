@@ -4,6 +4,7 @@ title: solasoxford.com
 slug: solas
 type: big
 date: 2025-08
+d-date: August 2025 - present
 description: solas
 skills:
   - WordPress
