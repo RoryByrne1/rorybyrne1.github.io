@@ -11,7 +11,7 @@ title: works
   {% for page in pages %}
     {% if page.dir == "/works/" and page.title != "works" and page.type == "big" and page.title != "New Project" %}
       <a href="{{ page.url }}" class="project-tile">
-        <img src="/assets/projects/{{ page.slug }}.png" class="project-image retro-button">
+        <img src="/assets/images/projects/{{ page.slug }}.png" class="project-image retro-button">
         <span class="project-title">{{ page.title }}</span>
       </a>
     {% endif %}
@@ -26,7 +26,7 @@ title: works
   {% for page in pages %}
     {% if page.dir == "/works/" and page.title != "works" and page.type == "little" and page.title != "New Project" %}
       <a href="{{ page.url }}" class="project-tile">
-        <img src="/assets/projects/{{ page.slug }}.png" class="project-image retro-button">
+        <img src="/assets/images/projects/{{ page.slug }}.png" class="project-image retro-button">
         <span class="project-title">{{ page.title }}</span>
       </a>
     {% endif %}

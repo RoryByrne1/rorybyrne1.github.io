@@ -5,35 +5,35 @@ list:
   - date: 2025-08-19
     description: 
     where: Connemara, Ireland
-    image: /assets/photos/DSC06867.JPG
+    image: /assets/images/photos/DSC06867.JPG
     camera: Sony DSC-RX100
     settings: f/5, 1/250 sec, ISO 200
 
   - date: 2025-08-20
     description:
     where: Connemara, Ireland
-    image: /assets/photos/DSC07132.JPG
+    image: /assets/images/photos/DSC07132.JPG
     camera: Sony DSC-RX100
     settings: f/6.3, 1/500 sec, ISO 400
 
   - date: 2025-08-26
     description:
     where: Dingle Peninsula, Ireland
-    image: /assets/photos/DSC08004.JPG
+    image: /assets/images/photos/DSC08004.JPG
     camera: Sony DSC-RX100
     settings: f/6.3, 1/800 sec, ISO 200
 
   - date: 2025-08-28
     description:
     where: Dingle Peninsula, Ireland
-    image: /assets/photos/DSC08290.JPG
+    image: /assets/images/photos/DSC08290.JPG
     camera: Sony DSC-RX100
     settings: f/4.5, 1/1000 sec, ISO 200
 
   - date: 2024-09-12
     description:
     where: Oxfordshire, England
-    image: /assets/photos/IMG_8998.JPG
+    image: /assets/images/photos/IMG_8998.JPG
     camera: Canon EOS 400D
     settings: f/5.6, 1/400 sec, ISO 1600
 ---

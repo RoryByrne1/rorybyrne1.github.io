@@ -5,136 +5,136 @@ list:
   - title: 'Hollow Knight: Silksong'
     creator: Team Cherry
     year: 2025
-    image: /assets/games/silksong.png
+    image: /assets/images/games/silksong.png
     link: 
 
   - title: Minecraft
     creator: Mojang
     year: 2012
-    image: /assets/games/minecraft.jpg
+    image: /assets/images/games/minecraft.jpg
     link: 
 
   - title: Outer Wilds # story, storytelling, world, art style, soundtrack
     creator: Annapurna Interactive
     year: 2019
-    image: /assets/games/outerwilds.jpg
+    image: /assets/images/games/outerwilds.jpg
     link:
 
   - title: Stardew Valley
     creator: Concerned Ape
     year: 2016
-    image: /assets/games/stardewvalley.jpeg
+    image: /assets/images/games/stardewvalley.jpeg
     link: 
 
   - title: Outward # RPG systems, co-op
     creator: Nine Dots
     year: 2019
-    image: /assets/games/outward.jpg
+    image: /assets/images/games/outward.jpg
     link: 
 
   - title: Subnautica # scary, story, storytelling, progression system, world
     creator: Unknown Worlds
     year: 2018
-    image: /assets/games/subnautica.png
+    image: /assets/images/games/subnautica.png
     link: 
 
   - title: "The Legend of Zelda: Breath of the Wild"
     creator: Nintendo
     year: 2017
-    image: /assets/games/botw.jpg
+    image: /assets/images/games/botw.jpg
     link: 
 
   - title: Hollow Knight # graphics, atmosphere, story, storytelling, combat, upgrade systems
     creator: Team Cherry
     year: 2017
-    image: /assets/games/hollowknight.jpg
+    image: /assets/images/games/hollowknight.jpg
     link: 
 
   - title: A Short Hike
     creator: Adam Robinson-Yu
     year: 2019
-    image: /assets/games/ashorthike.png
+    image: /assets/images/games/ashorthike.png
     link: 
 
   - title: The Witness # puzzles, eeriness, unlike anything else
     creator: Thekla, Inc.
     year: 2016
-    image: /assets/games/thewitness.jpeg
+    image: /assets/images/games/thewitness.jpeg
     link: 
     
   - title: "The Elder Scrolls V: Skyrim"
     creator: Bethesda Game Studios
     year: 2011
-    image: /assets/games/skyrim.jpg
+    image: /assets/images/games/skyrim.jpg
     link: 
 
   - title: Shadow of the Colossus # storytelling, puzzles, art style / atmosphere
     creator: Sony Computer Entertainment
     year: 2005
-    image: /assets/games/sotc.jpg
+    image: /assets/images/games/sotc.jpg
     link: 
 
   - title: Portal
     creator: Valve
     year: 2007
-    image: /assets/games/portal.jpg
+    image: /assets/images/games/portal.jpg
     link: 
 
   - title: Tunic # innovation, puzzles
     creator: Isometricorp Games
     year: 2022
-    image: /assets/games/tunic.jpg
+    image: /assets/images/games/tunic.jpg
     link: 
 
   - title: Raft
     creator: Redbeet Interactive
     year: 2018
-    image: /assets/games/raft.jpeg
+    image: /assets/images/games/raft.jpeg
     link: 
 
   - title: Slime Rancher
     creator: Monomi Park
     year: 2017
-    image: /assets/games/slimerancher.png
+    image: /assets/images/games/slimerancher.png
     link: 
 
   - title: "Animal Crossing: New Horizons"
     creator: Nintendo
     year: 2020
-    image: /assets/games/acnh.jpg
+    image: /assets/images/games/acnh.jpg
     link: 
 
   - title: The Last of Us
     creator: Naughty Dog
     year: 2013
-    image: /assets/games/thelastofus.jpg
+    image: /assets/images/games/thelastofus.jpg
     link: 
 
   - title: Rain World # innovation, world doesn't care, graphics, atmosphere
     creator: Videocult
     year: 2017
-    image: /assets/games/rainworld.jpg
+    image: /assets/images/games/rainworld.jpg
     link: 
 
   - title: Ico # innovation, atmosphere, storytelling
     creator: Sony Computer Entertainment
     year: 2001
-    image: /assets/games/ico.png
+    image: /assets/images/games/ico.png
 
   - title: Celeste # soundtrack, graphics
     creator: Maddy Makes Games
     year: 2018
-    image: /assets/games/celeste.png
+    image: /assets/images/games/celeste.png
 
   - title: "The Legend of Zelda: The Wind Waker"
     creator: Nintendo
     year: 2002
-    image: /assets/games/windwaker.webp
+    image: /assets/images/games/windwaker.webp
 
   - title: "Tomodachi Life" # soundtrack, graphics
     creator: Nintendo
     year: 2013
-    image: /assets/games/tomodachi.jpg
+    image: /assets/images/games/tomodachi.jpg
 ---
 
 being raised with 3 older brothers i played a lot of video games growing up

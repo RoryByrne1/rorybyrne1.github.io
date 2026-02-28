@@ -5,107 +5,107 @@ list:
   - title: In Rainbows
     creator: Radiohead
     year: 2007
-    image: /assets/albums/inrainbows.png
+    image: /assets/images/albums/inrainbows.png
     link: 
 
   - title: Getting Killed
     creator: Geese
     year: 2025
-    image: /assets/albums/gettingkilled.jpg
+    image: /assets/images/albums/gettingkilled.jpg
     link: 
     
   - title: Ants From Up There
     creator: Black Country, New Road
     year: 2022
-    image: /assets/albums/afut.jpg
+    image: /assets/images/albums/afut.jpg
     link: https://open.spotify.com/album/21xp7NdU1ajmO1CX0w2Egd
 
   - title: Crushing
     creator: Julia Jacklin
     year: 2019
-    image: /assets/albums/crushing.png
+    image: /assets/images/albums/crushing.png
     link: https://open.spotify.com/album/455vksW9TxVTyB9qqj1Lpu
 
   - title: The New Abnormal
     creator: The Strokes
     year: 2020
-    image: /assets/albums/thenewabnormal.png
+    image: /assets/images/albums/thenewabnormal.png
     link: https://open.spotify.com/album/2xkZV2Hl1Omi8rk2D7t5lN
 
   - title: For Emma, Forever Ago
     creator: Bon Iver
     year: 2008
-    image: /assets/albums/foremma.jpg
+    image: /assets/images/albums/foremma.jpg
     link: https://open.spotify.com/album/7EJ0OT5ZqybXxcYRa6mccM
 
   - title: Funeral
     creator: Arcade Fire
     year: 2004
-    image: /assets/albums/funeral.jpg
+    image: /assets/images/albums/funeral.jpg
     link: https://open.spotify.com/album/6ZB8qaR9JNuS0Q0bG1nbcH
 
   - title: Ys
     creator: Joanna Newsom
     year: 2006
-    image: /assets/albums/ys.jpg
+    image: /assets/images/albums/ys.jpg
     link: https://music.apple.com/us/album/ys/204051949
 
   - title: Heavy Metal
     creator: Cameron Winter
     year: 2024
-    image: /assets/albums/heavymetal.png
+    image: /assets/images/albums/heavymetal.png
     link: https://open.spotify.com/album/7mOrnQqDad3RgYQsJGaaqk
 
   - title: Carrie & Lowell
     creator: Sufjan Stevens
     year: 2015
-    image: /assets/albums/carrie&lowell.jpg
+    image: /assets/images/albums/carrie&lowell.jpg
     link: https://open.spotify.com/album/0U8DeqqKDgIhIiWOdqiQXE
     
   - title: The Glow Pt. 2
     creator: The Microphones
     year: 2001
-    image: /assets/albums/theglowpt2.jpg
+    image: /assets/images/albums/theglowpt2.jpg
     link: https://open.spotify.com/album/6QYoRO2sXThCORAifrP4Bl
 
   - title: Dummy
     creator: Portishead
     year: 1994
-    image: /assets/albums/dummy.png
+    image: /assets/images/albums/dummy.png
     link: https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno
 
   - title: Hail to the Thief
     creator: Radiohead
     year: 2003
-    image: /assets/albums/hailtothethief.png
+    image: /assets/images/albums/hailtothethief.png
     link: https://open.spotify.com/album/5mzoI3VH0ZWk1pLFR6RoYy
 
   - title: Dragon New Warm Mountain I Believe in You
     creator: Big Thief
     year: 2022
-    image: /assets/albums/dnwmibiy.png
+    image: /assets/images/albums/dnwmibiy.png
     link: https://open.spotify.com/album/7Ln81p86r5cCsesd3KBWIY
 
   - title: If You're Feeling Sinister
     creator: Belle and Sebastian
     year: 1996
-    image: /assets/albums/b&s.jpg
+    image: /assets/images/albums/b&s.jpg
 
   - title: Two Saviors
     creator: Buck Meek
     year: 2021
-    image: /assets/albums/twosaviors.jpg
+    image: /assets/images/albums/twosaviors.jpg
 
   - title: 3D Country
     creator: Geese
     year: 2023
-    image: /assets/albums/3dcountry.png
+    image: /assets/images/albums/3dcountry.png
 
   - title: Bloom
     creator: Beach House
     year: 2012
-    image: /assets/albums/bloom.png
-  # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched, manning fireworks
+    image: /assets/images/albums/bloom.png
+  # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched, manning fireworks, charm
 ---
 
 i play and listen to a lot of music
