@@ -1,0 +1,19 @@
+.home-title {
+  font-size: 8em;
+  text-decoration: none;
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
+  font-family: var(--accent-font);
+  color: var(--body-text);
+}
+
+.home-content {
+  flex: 2;
+}
+
+@media (max-width: 740px) {
+  .home-title {
+    margin-top: 2em;
+    font-size: 16vw;
+  }
+}

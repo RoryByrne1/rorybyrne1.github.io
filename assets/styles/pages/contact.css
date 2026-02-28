@@ -1,0 +1,53 @@
+.cv-list {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.cv-entry {
+  font-family: var(--accent-font);
+}
+
+.cv-entry strong {
+  font-size: 1.1em;
+  color: var(--title-text);
+  font-family: var(--accent-font);
+}
+
+.cv-notes {
+  font-family: var(--body-font);
+  font-size: 0.9em;
+  padding-left: 0.5em;
+  margin: 0.5rem 0 0 0;
+}
+
+.cv-section {
+  margin-bottom: 2em;
+  margin-left: 1rem;
+}
+
+.cv-skills li::before {
+  content: "";
+  margin-right: 0;
+}
+
+.cv-skills strong {
+  font-family: var(--accent-font);
+  margin-right: 5px;
+}
+
+.cv-where {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.contact-icons ul {
+  font-size: 1.4rem;
+  gap: 0.4rem;
+}
+
+@media (max-width: 740px) {
+  .cv-entry {
+    padding: 0 0.5rem;
+  }
+}
