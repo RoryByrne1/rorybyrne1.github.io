@@ -81,7 +81,7 @@ skills:
 
 # cv
 
-<a href="/assets/CV.pdf" target="_blank" aria-label="CV">view pdf</a>
+<a href="/assets/pdfs/CV.pdf" target="_blank" aria-label="CV">view pdf</a>
 
 
 ## education
