@@ -15,8 +15,22 @@ skills:
 
 In Computer Science A-Level, every student is required to do a Non-Exam Assessment (NEA). This is a coursework where you choose a problem and then create a solution along with a document that documents the process.
 
-I wanted to make a retro-style twin-stick shoot-em-up game, heavily inspired by the *Journey of The Prairie King* minigame in *Stardew Valley*, and so made up a problem that conveniently required me to do just that. I put a lot of time into this project, creating the game along with a design document, and my work was marked 73/75. <a href="/assets/Computer%20Science%20NEA.pdf" target="_blank">Here</a> is my long design document detailing the creation process and the code can be found <a href="https://github.com/RoryByrne1/Twin-Stick-Shooter" target="_blank">on my github</a>. I have since learnt better code organisation. Most of the work on this project took place between October 2023 and March 2024 I think.
+I wanted to make a retro-style twin-stick shoot-em-up arcade game, heavily inspired by the *Journey of The Prairie King* minigame in *Stardew Valley*, and so made up a problem that conveniently required me to do just that. I put a lot of time into this project, creating the game along with a design document, and my work was marked 73/75. <a href="/assets/pdfs/Computer%20Science%20NEA.pdf" target="_blank">Here</a> is my long design document detailing the creation process and the code can be found <a href="https://github.com/RoryByrne1/Twin-Stick-Shooter" target="_blank">on my github</a>. I have since learnt better code organisation. Most of the work on this project took place between October 2023 and March 2024 I think.
 
-In the game, players control a completely customisable character, using their gun to fend off waves of enemies that spawn from all sides. Enemies vary in speed, health, and movement patterns, with tougher types appearing later. Randomly dropped items grant temporary boosts and abilities. The goal is to survive as long as possible, score points, and climb up the leaderboards. A local account system lets each player create an account that saves their statistics, high scores, and custom character, while local multiplayer allows two players to team up for combined scores.
+In the game, players control a completely customisable character, using their gun to fend off waves of enemies that spawn from all sides. Enemies vary in speed, health, and movement patterns, with tougher types appearing later. Randomly dropped items grant temporary boosts and abilities. The goal is to survive as long as possible, score points, and climb up the leaderboards. A local account system lets each player create an account that saves their statistics, high scores, and custom character, while local multiplayer allows two logged-in players to team up for combined scores.
+
+<img width=400 src="/assets/projects/twin-stick-shooter/game.gif">
+<p class="image-subtitle">GIF of single player gameplay</p>
+
+One of my favourite features is the character customisation. In the 'customisation studio', there's an 8x3 pixel grid where you can draw a hat to sit on top of your character, with multiple colours and undo and redo buttons.
+You can also choose a colour for each element of the character's body.
+
+<img width=400 src="/assets/projects/twin-stick-shooter/customisation.png">
+<p class="image-subtitle">screenshot of the customisation screen</p>
+
+These custom characters then appear on the leaderboards and the podiums.
+
+<img width=400 src="/assets/projects/twin-stick-shooter/podium.png">
+<p class="image-subtitle">screenshot of the podiums tab of the leaderboards screen</p>
 
 I'm very proud of this project. I think the game is well made, well thought out, and can be pretty fun. I made all the art myself using Aseprite, I made sound effects and little jingles using FamiTracker, I'm pretty proud of the design document, and I didn't use any AI in any of the development (I didn't really know about it at the time).

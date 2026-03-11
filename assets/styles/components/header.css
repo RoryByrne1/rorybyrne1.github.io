@@ -15,7 +15,7 @@
   margin-bottom: 8px;
   text-decoration: none;
   color: var(--body-text);
-  transition: letter-spacing 0.5s ease;
+  transition: letter-spacing 0.25s ease;
 }
 
 .site-title:hover {
