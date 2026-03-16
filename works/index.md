@@ -10,9 +10,9 @@ title: works
   {% assign pages = site.pages | sort: "date" | reverse %}
   {% for page in pages %}
     {% if page.dir == "/works/" and page.title != "works" and page.type == "big" and page.title != "New Project" %}
-      <a href="{{ page.url }}" class="project-tile">
-        <img src="/assets/images/projects/{{ page.slug }}.png" class="project-image retro-button">
-        <span class="project-title">{{ page.title }}</span>
+      <a href="{{ page.url }}" class="button-tile">
+        <img src="/assets/images/projects/{{ page.slug }}.png" class="button-tile-image">
+        <span class="button-tile-title">{{ page.title }}</span>
       </a>
     {% endif %}
   {% endfor %}
@@ -25,9 +25,9 @@ title: works
   {% assign pages = site.pages | sort: "date" | reverse %}
   {% for page in pages %}
     {% if page.dir == "/works/" and page.title != "works" and page.type == "little" and page.title != "New Project" %}
-      <a href="{{ page.url }}" class="project-tile">
-        <img src="/assets/images/projects/{{ page.slug }}.png" class="project-image retro-button">
-        <span class="project-title">{{ page.title }}</span>
+      <a href="{{ page.url }}" class="button-tile">
+        <img src="/assets/images/projects/{{ page.slug }}.png" class="button-tile-image">
+        <span class="button-tile-title">{{ page.title }}</span>
       </a>
     {% endif %}
   {% endfor %}

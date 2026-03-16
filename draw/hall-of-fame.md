@@ -22,11 +22,11 @@ list:
 <div class="gallery-of-fame">
   {% assign tiles = page.list | sort: "date" | reverse %}
   {% for tile in tiles %}
-    <div>
+    <div class="button-tile">
       <a href="{{ tile.link }}" target="new">
-        <img src="{{ tile.image }}" alt="{{ tile.date }}" class="project-image">
+        <img src="{{ tile.image }}" alt="{{ tile.date }}" class="button-tile-image">
       </a>
-      <strong class="gallery-date">{{ tile.date | date: "%-d.%-m.%Y" }}</strong>
+      <strong class="button-tile-title gallery-date">{{ tile.date | date: "%-d.%-m.%Y" }}</strong>
     </div>
   {% endfor %}
 </div>

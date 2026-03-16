@@ -5,7 +5,7 @@
 .image-tiles {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 0.5rem;
+  gap: 0.6rem;
 }
 
 .image-tile {
@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   /* cursor: pointer; */
-  border-radius: 7%;
+  border-radius: 4%;
   overflow: hidden;
 }
 
@@ -30,14 +30,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.45);
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.2s;
+  transition: opacity 0.1s;
   text-align: center;
   font-size: 0.8rem;
   pointer-events: none;

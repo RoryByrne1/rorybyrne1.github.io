@@ -19,35 +19,6 @@
   margin-bottom: .5em;
 }
 
-.draw-button {
-  border-radius: 0;
-  margin-right: 0.1rem;
-  margin-bottom: 0.3rem;
-  font-size: 0.9rem;
-  color: var(--body-text);
-  background-color: #e9e9ed;
-  border-top: 2px solid #8f8f9d;
-  border-left: 2px solid #8f8f9d;
-  border-bottom: 2px solid #5f5f68;
-  border-right: 2px solid #5f5f68;
-}
-
-.draw-button:hover {
-  background-color: #D0D0D7;
-  border-top: 2px solid #676774;
-  border-left: 2px solid #676774;
-  border-right: 2px solid #45454D;
-  border-bottom: 2px solid #45454D;
-}
-
-.draw-button:active {
-  background-color: #B1B1B9;
-  border-top: 2px solid #303036;
-  border-left: 2px solid #303036;
-  border-right: 2px solid #484851;
-  border-bottom: 2px solid #484851;
-}
-
 .gallery-of-fame {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
