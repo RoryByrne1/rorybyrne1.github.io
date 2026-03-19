@@ -46,6 +46,18 @@ body.site {
   width: 45rem;
 }
 
+::selection {
+  color: white;
+  background: var(--accent-text);
+}
+::-moz-selection {
+  color: white;
+  background: var(--accent-text);
+}
+::-webkit-selection {
+  color: white;
+  background: var(--accent-text);
+}
 
 /* for phones */
 @media (max-width: 740px) {
