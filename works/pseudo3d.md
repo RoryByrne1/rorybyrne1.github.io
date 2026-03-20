@@ -17,10 +17,10 @@ Mazes are represented as a 2D grid, where each cell has a value indicating wheth
 
 Here is a clip of the simulated 3D view:
 
-<img width=400 src="/assets/gifs/pseudo3d/3d_view.gif">
+<img width=400 src="/assets/projects/pseudo3d/3d_view.gif">
 
 Here is a clip without a simulated 3D view, showing the maze layout and the rays that are cast from the player:
 
-<img width=400 src="/assets/gifs/pseudo3d/2d_view.gif">
+<img width=400 src="/assets/projects/pseudo3d/2d_view.gif">
 
-I found <a href="https://lodev.org/cgtutor/raycasting.html" target="new">Lode's Computer Graphics Tutorial on Raycasting</a> a very useful resource for this project and the code can be found <a href="https://github.com/RoryByrne1/pseudo-3d-maze" target="new">on my GitHub</a>.
+I found <a href="https://lodev.org/cgtutor/raycasting.html" target="_blank">Lode's Computer Graphics Tutorial on Raycasting</a> a very useful resource for this project and the code can be found <a href="https://github.com/RoryByrne1/pseudo-3d-maze" target="_blank">on my GitHub</a>.

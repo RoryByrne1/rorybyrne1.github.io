@@ -23,7 +23,7 @@ list:
   {% assign tiles = page.list | sort: "date" | reverse %}
   {% for tile in tiles %}
     <div class="button-tile">
-      <a href="{{ tile.link }}" target="new">
+      <a href="{{ tile.link }}" target="_blank">
         <img src="{{ tile.image }}" alt="{{ tile.date }}" class="button-tile-image">
       </a>
       <strong class="button-tile-title gallery-date">{{ tile.date | date: "%-d.%-m.%Y" }}</strong>
