@@ -14,6 +14,24 @@ a:hover {
   color: var(--accent-hover);
 }
 
+a[target="_blank"]:not(.no-icon)::after {
+  color: var(--accent-text);
+  content: "";
+  display: inline-block;
+  vertical-align: -0.2em;
+  width: 1em;
+  height: 1em;
+  margin-left: 1px;
+  background-color: var(--accent-text);
+  -webkit-mask: url("../../icons/new_tab.svg") no-repeat center / contain;
+  mask: url("../../icons/new_tab.svg") no-repeat center / contain;
+  transition: background-color 0.2s ease;
+}
+
+a[target="_blank"]:not(.no-icon):hover::after {
+  background-color: var(--accent-hover);
+}
+
 ul {
   list-style: none;
   gap: 0.1em;
