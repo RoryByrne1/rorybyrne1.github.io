@@ -90,6 +90,7 @@ ul li::before {
   align-items: center;
   text-decoration: none;
   text-align: center;
+  container-type: inline-size;
 }
 
 .button-tile-image {

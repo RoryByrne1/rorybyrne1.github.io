@@ -12,7 +12,7 @@ title: works
     {% if page.dir == "/works/" and page.title != "works" and page.type == "big" and page.title != "New Project" %}
       <a href="{{ page.url }}" class="button-tile">
         <img src="/assets/images/projects/{{ page.slug }}.png" class="button-tile-image">
-        <span class="button-tile-title">{{ page.title }}</span>
+        <p class="button-tile-title">{{ page.title }}</p>
       </a>
     {% endif %}
   {% endfor %}
@@ -24,7 +24,7 @@ title: works
 <div class="project-tiles">
   {% assign pages = site.pages | sort: "date" | reverse %}
   {% for page in pages %}
-    {% if page.dir == "/works/" and page.title != "works" and page.type == "little" and page.title != "New Project" %}
+    {% if page.dir == "/works/" and page.title != "works" and page.type == "little" %}
       <a href="{{ page.url }}" class="button-tile">
         <img src="/assets/images/projects/{{ page.slug }}.png" class="button-tile-image">
         <span class="button-tile-title">{{ page.title }}</span>

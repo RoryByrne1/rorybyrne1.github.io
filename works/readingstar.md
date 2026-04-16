@@ -14,7 +14,7 @@ skills:
   - FastAPI
 ---
 
-ReadingStar 2.0 is an offline AI-powered educational app using music to support the speech development of autistic children, developed as part of the UCL Industry Exchange Network programme alongside <a href="https://www.dorukersoy.com/" target="_blank">Doruk Ersoy</a>, Sinan Sensurucu, and <a href="https://markostefanov.com/" target="_blank">Marko Stefano</a>. It was created in collaboration with **Intel**, **IBM**, the **National Autistic Society**, and **MotionInput Games**.
+ReadingStar 2.0 is an offline AI-powered educational app using music to support the speech development of autistic children, developed as part of the UCL Industry Exchange Network programme alongside <a href="https://www.dorukersoy.com/" target="_blank">Doruk Ersoy</a>, Sinan Sensurucu, and <a href="https://markostefanov.com/" target="_blank">Marko Stefanov</a>. It was created in collaboration with **Intel**, **IBM**, the **National Autistic Society**, and **MotionInput Games**.
 
 My contribution to the project was designing and implementing the user interface and user interactions, establishing frontend-backend communication, and developing the storage architecture for generated songs and settings. 
 
