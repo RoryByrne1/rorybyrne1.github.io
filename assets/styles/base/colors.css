@@ -67,8 +67,8 @@ yellow {
   --title-hover:   #FFFFFF;     /* pure white for contrast */
   --body-text:     #EEEEEE;     /* soft light gray */
   --body-hover:    #AAAAAA;     /* slightly brighter hover */
-  --accent-text:   #FF6B57;     /* warm coral accent */
-  --accent-hover:  #E24A38;     /* darker coral-red hover */
+  --accent-text:   #E24A38;     /* warm coral accent */
+  --accent-hover:  #FF6B57;     /* darker coral-red hover */
 
   --draw-grid: var(--border);
 
@@ -76,7 +76,7 @@ yellow {
   --dark-rust:     #E24A38;     /* darker but vibrant rust red */
 
   --body-font:   "Roboto", serif;
-  --accent-font: "Fira Code", monospace, sans-serif;
+  --accent-font: "Roboto Mono", monospace;
 
   --background:   #1E1E1E;     /* deep charcoal background */
   --surface:      #2A2A2A;     /* slightly lighter panels/cards */

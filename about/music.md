@@ -6,106 +6,134 @@ list:
     creator: Radiohead
     year: 2007
     image: /assets/images/albums/inrainbows.png
-    link: 
+    date: 2007-10-10
 
   - title: Getting Killed
     creator: Geese
     year: 2025
     image: /assets/images/albums/gettingkilled.jpg
-    link: 
+    date: 2025-09-26
     
   - title: Ants From Up There
     creator: Black Country, New Road
     year: 2022
     image: /assets/images/albums/afut.jpg
-    link: https://open.spotify.com/album/21xp7NdU1ajmO1CX0w2Egd
+    date: 2022-02-04
 
   - title: Crushing
     creator: Julia Jacklin
     year: 2019
     image: /assets/images/albums/crushing.png
-    link: https://open.spotify.com/album/455vksW9TxVTyB9qqj1Lpu
+    date: 2019-02-22
 
   - title: The New Abnormal
     creator: The Strokes
     year: 2020
     image: /assets/images/albums/thenewabnormal.png
-    link: https://open.spotify.com/album/2xkZV2Hl1Omi8rk2D7t5lN
+    date: 2020-04-10
 
   - title: For Emma, Forever Ago
     creator: Bon Iver
-    year: 2008
+    year: 2007
     image: /assets/images/albums/foremma.jpg
-    link: https://open.spotify.com/album/7EJ0OT5ZqybXxcYRa6mccM
+    date: 2007-07-08
 
   - title: Funeral
     creator: Arcade Fire
     year: 2004
     image: /assets/images/albums/funeral.jpg
-    link: https://open.spotify.com/album/6ZB8qaR9JNuS0Q0bG1nbcH
+    date: 2004-09-14
 
   - title: Ys
     creator: Joanna Newsom
     year: 2006
     image: /assets/images/albums/ys.jpg
-    link: https://music.apple.com/us/album/ys/204051949
+    date: 2006-11-14
 
   - title: Heavy Metal
     creator: Cameron Winter
     year: 2024
     image: /assets/images/albums/heavymetal.png
-    link: https://open.spotify.com/album/7mOrnQqDad3RgYQsJGaaqk
+    date: 2024-12-06
 
   - title: Carrie & Lowell
     creator: Sufjan Stevens
     year: 2015
     image: /assets/images/albums/carrie&lowell.jpg
-    link: https://open.spotify.com/album/0U8DeqqKDgIhIiWOdqiQXE
+    date: 2015-03-31
     
   - title: The Glow Pt. 2
     creator: The Microphones
     year: 2001
     image: /assets/images/albums/theglowpt2.jpg
-    link: https://open.spotify.com/album/6QYoRO2sXThCORAifrP4Bl
+    date: 2001-09-11
 
   - title: Dummy
     creator: Portishead
     year: 1994
     image: /assets/images/albums/dummy.png
-    link: https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno
+    date: 1994-08-22
 
   - title: Hail to the Thief
     creator: Radiohead
     year: 2003
     image: /assets/images/albums/hailtothethief.png
-    link: https://open.spotify.com/album/5mzoI3VH0ZWk1pLFR6RoYy
+    date: 2003-06-09
 
   - title: Dragon New Warm Mountain I Believe in You
     creator: Big Thief
     year: 2022
     image: /assets/images/albums/dnwmibiy.png
-    link: https://open.spotify.com/album/7Ln81p86r5cCsesd3KBWIY
+    date: 2022-02-11
 
   - title: If You're Feeling Sinister
     creator: Belle and Sebastian
     year: 1996
     image: /assets/images/albums/b&s.jpg
+    date: 1996-11-18
 
   - title: Two Saviors
     creator: Buck Meek
     year: 2021
     image: /assets/images/albums/twosaviors.jpg
+    date: 2021-01-15
 
   - title: 3D Country
     creator: Geese
     year: 2023
     image: /assets/images/albums/3dcountry.png
+    date: 2023-06-23
 
   - title: Bloom
     creator: Beach House
     year: 2012
     image: /assets/images/albums/bloom.png
-  # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched, manning fireworks, charm
+    date: 2012-05-15
+  
+  - title: Blizzard
+    creator: Dove Ellis
+    year: 2025
+    image: /assets/images/albums/blizzard.jpeg
+    date: 2025-12-05
+  
+  - title: Manning Fireworks
+    creator: MJ Lenderman
+    year: 2024
+    image: /assets/images/albums/manningfireworks.png
+    date: 2024-09-06
+  
+  - title: Charm
+    creator: Clairo
+    year: 2024
+    image: /assets/images/albums/charm.png
+    date: 2024-06-12
+
+  - title: Is This It
+    creator: The Strokes
+    year: 2001
+    image: /assets/images/albums/isthisit.png
+    date: 2001-07-30
+  # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched
 ---
 
 i play and listen to a lot of music
@@ -115,7 +143,7 @@ i've been playing piano and guitar for a very long time, more recently starting 
 below are some of my favourite albums
 
 <div class="image-tiles">
-    {% assign tiles = page.list | sort: "year" | reverse %}
+    {% assign tiles = page.list | sort: "date" | reverse %}
     {% for tile in tiles %}
         <div class="image-tile">
         <div class="tile-card">
