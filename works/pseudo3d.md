@@ -19,7 +19,7 @@ Here is a clip of the simulated 3D view:
 
 <img width=400 src="/assets/projects/pseudo3d/3d_view.gif">
 
-Here is a clip without a simulated 3D view, showing the maze layout and the rays that are cast from the player:
+Here is a clip without the simulated 3D view, showing the maze layout and the rays that are cast from the player:
 
 <img width=400 src="/assets/projects/pseudo3d/2d_view.gif">
 
