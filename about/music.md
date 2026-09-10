@@ -133,6 +133,19 @@ list:
     year: 2001
     image: /assets/images/albums/isthisit.png
     date: 2001-07-30
+  
+  - title: A Duck's Water Off My Back
+    creator: Champion Trees
+    year: 2025
+    image: /assets/images/albums/duckswater.jpg
+    date: 2025-11-20
+  
+  - title: Massive Shoe
+    creator: Way Dynamic
+    year: 2025
+    image: /assets/images/albums/massiveshoe.jpg
+    date: 2025-08-22
+
   # titanic rising, a crow looked at me, fetch the boltcutters, sound of silver, bewitched
 ---
 
