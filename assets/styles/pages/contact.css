@@ -19,11 +19,27 @@
   font-size: 0.9em;
   padding-left: 0.5em;
   margin: 0.5rem 0 0 0;
+  gap: 0.2rem;
+}
+
+.cv-notes li {
+  position: relative;
+  padding-left: 1.1em;
+  gap: 1em;
+}
+
+.cv-notes li::before {
+  position: absolute;
+  left: 0;
 }
 
 .cv-section {
   margin-bottom: 2em;
   margin-left: 1rem;
+}
+
+.cv-skills {
+  margin-left: 0rem;
 }
 
 .cv-skills li::before {

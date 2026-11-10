@@ -2,40 +2,47 @@
 layout: default
 title: cv
 experience:
+  - who: MotionInput Games
+    what: Software Engineering Intern
+    where: London, United Kingdom
+    when: July - September 2026
+    notes:
+      - developed a real-time modular puppeteering system in Python using pose landmarks to drive custom 2D avatars
+      - implemented landmark smoothing, jump detection and missing-landmark handling for tracking stability
+      - implemented OpenCV and PySide6 renderers for in-window and desktop overlay display with configurable assets
+      - debugged, packaged, and shipped four MotionInput games to the Microsoft Store using MSIX
   - who: Solas Oxford CIC
     what: Web Developer
     where: Oxford, United Kingdom
     when: June 2025 - Present
     notes:
-      - leading an ongoing redesign and structural rebuild of a live WordPress website using Elementor
-      - improving content organisation, maintainability, and long-term scalability of the site
-      - designing and implementing dynamic systems to centralise content and reduce duplication
-      - working closely with a graphic designer to translate visual designs into responsive, accessible pages
+      - leading the redesign and rebuild of a live WordPress website to improve organisation and maintainability
+      - developing a reusable system for trainings and events to centralise content and reduce redundancy
+      - translating visual designs into responsive, accessible page layouts in collaboration with a graphic designer
   - who: The Mole Inn &bull; June - September 2025 <br> The Seven Stars At Marsh Baldon
     what: Waiter
     where: Oxford, United Kingdom
     when: June - September 2024
     notes:
       - worked effectively in a fast-paced environment, managing multiple tables and orders
-      - collaborated closely with other waiters and kitchen staff to ensure smooth operations
+      - collaborated closely with other waiters and kitchen staff to ensure smooth operations and timely service
       - developed strong communication and problem-solving skills through daily customer interactions
   - who: Rutherford Appleton Laboratory
     what: ISIS Synchrotron Group Work Experience
     where: Didcot, United Kingdom
     when: June - July 2023
     notes:
-      - worked in teams developing GUIs in Python to help accelerator physicists understand proton beams
-      - responsible for creating peak and loss finders for live MQTT beam intensity monitor data using NumPy
-      - employed the agile methodology, regularly presenting our progress and implementing feedback
-      - delivered a comprehensive presentation on our GUI and project journey to a panel of physicists
+      - developed Python GUIs to help accelerator physicists monitor and understand proton beams
+      - implemented NumPy-based peak and loss finders for live MQTT beam-intensity monitor data
+      - delivered a comprehensive presentation on the GUI and project journey to a panel of physicists
       
 education:
   - who: University College London (UCL)
-    what: BSc Computer Science
+    what: MEng Computer Science
     where: London, United Kingdom
-    when: September 2024 - June 2027
+    when: September 2024 - June 2028
     notes:
-      - achieved a grade of 85.31% in first year
+      - current weighted average of 83.21% across my first two years
   - who: Wheatley Park School
     what: A-Levels and GCSEs
     where: Oxford, United Kingdom
@@ -45,7 +52,7 @@ education:
       - achieved 11 GCSEs at grades 7-9
 
 achievements:
-  - achieved 100th percentile out of all Computer Science applicants in the UCL STAT admissions test
+  - achieved 100th percentile in the UCL STAT admissions test out of over 2000 shortlisted applicants
   - Distinction award and Best in School in Elite Bebras Computing Challenges 2022 and 2023
   - Senior Kangaroo award and Best in School in Senior Maths Challenges 2022 and 2023
   - FUZE Wheatley Park Excellence in Computing 2023 award
@@ -60,23 +67,29 @@ skills:
     - C#
     - Java
     - JavaScript
-    - Haskell
     - HTML
     - SQL
+    - Haskell
+    - GLSL
+  graphics & game development:
+    - OpenGL
+    - Unity
+    - Godot
+  libraries & frameworks:
+    - NumPy
+    - MySQL
+    - Matplotlib
+    - FastAPI
+    - Electron
   developer tools:
     - Git
     - GitHub
     - Jupyter
     - VS Code
     - Postman
-    - npm
-  libraries & frameworks:
-    - NumPy
-    - MySQL
-    - Matplotlib
-    - FastAPI
-    - Uvicorn
-    - Electron
+    - WordPress
+    - LaTeX
+
 ---
 
 # cv
